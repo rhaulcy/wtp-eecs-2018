@@ -1,1 +1,1 @@
-# wtp-eecs-2018
+WTP 2018 CS
