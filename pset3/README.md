@@ -11,13 +11,13 @@ Mad  Libs  are  word  games  where  one  player  fills  in  the  blanks  of  ano
 
 In `madlib.py` we  are  going  to  write  a  program  that  lets  the  user  make  a  Mad  Lib!
 
-(a)First,  you  will  need  a  Mad  Lib:  we  have  provided  a  (terrible!)  personal  ad  Mad  Lib  in  the  file `personal_ad.txt`,  but  feel  free  to  write  your  own  or  choose  one  from http://www.madglibs.com/
+(a) First,  you  will  need  a  Mad  Lib:  we  have  provided  a  (terrible!)  personal  ad  Mad  Lib  in  the  file `personal_ad.txt`,  but  feel  free  to  write  your  own  or  choose  one  from http://www.madglibs.com/
 
-(b)Now,  as  we  did  for  Evil  Pierre  in  class,  some  words  need  to  be  replaced  with  variables.  In  this  case, replace  any  “blanks”  in  the  story  with  variables. 
+(b) Now,  as  we  did  for  Evil  Pierre  in  class,  some  words  need  to  be  replaced  with  variables.  In  this  case, replace  any  “blanks”  in  the  story  with  variables. 
 
-(c)Now,  using  the `raw_input` command  we  learned  in  class,  prompt  the  user  for  words  to  fill  in  the blanks.  Ask the  user  for  at  least  4  inputs.
+(c) Now,  using  the `raw_input` command  we  learned  in  class,  prompt  the  user  for  words  to  fill  in  the blanks.  Ask the  user  for  at  least  4  inputs.
 
-(d)Finally,  print  out  the  story  for  the  user!
+(d) Finally,  print  out  the  story  for  the  user!
 
 ### 2.  Mouse Input - `mousepoint.py`
 In  this  exercise,  we’ll  experiment  with  a  different  type  of  user  input:  the  mouse  pointer.  You  can  find all  the  documentation  for  the  graphics  module  on  the  website http://tinyurl.com/graphics-py (or http://mcsp.wartburg.edu/zelle/python/graphics/graphics/graphics.html). 
@@ -85,10 +85,10 @@ Fill in the following table with the appropriate outputs (the answers can be ent
 ### 5. Card Counting in Blackjack
 As  you  may  know  from  the  movie *21*,  there  is  a  technique  to  count  cards  while  playing  Blackjack  that can  help  the  player  determine  when  they  are  likely  to  win  or  lose!  Specifically,  when  counting  cards,  you keep  track  of  a  running  total  that  goes  up  and  down  based  on  the  cards  you  have  seen.  In  this  problem, we  will  be  building  a  program  that  will  count  cards  for  the  user.  Detailed  instructions  and  pseudocode are  in  each  file.
 
-(a)**Using  a  list  of  cards** – `cardlist.py`
+(a) **Using  a  list  of  cards** – `cardlist.py`
 First,  fill  in  the  missing  code  in `cardlist.py`,  as  described  in  the  comments.  The  program  should prompt  the  user  for  a  card,  and  check  the  user’s  response  against  the  provided  list.  Then,  the program  should  print  whether  the  user  input  a  valid  or  invalid  card.  This  program  is  the  first  step toward  getting  our  card  counting  code  working!
 
-(b)**Getting  card  values  for  MIT  card  counting** – `cardcountvalue.py`
+(b) **Getting  card  values  for  MIT  card  counting** – `cardcountvalue.py`
 Now,  build  on  the  code  you  wrote  in `cardlist.py` to  fill  in `cardcountvalue.py`.  This  program prompts  the  user  for  one  card’s  value  (assume  it  is  a  single  card,  not  part  of  a  series  of  cards)  and produces  the  corresponding  card  counting  value  for  it,  according  to  the  MIT  card  counting  approach. (If  the  user’s  response  is  invalid,  it  tells  the  user  it  was  invalid.) 
 
 Specifically,  MIT  card  counting  approach  assigns  card  counting  values  as  follows:
