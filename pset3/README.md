@@ -5,7 +5,7 @@ To get started, click the green "Clone or download" button and copy the link giv
 $ git clone {your-link-here}
 ```
  
-### 1. Write a Mad Lib - `mad_lib.py`
+### 1. Write a Mad Lib - `madlib.py`
 
 Mad  Libs  are  word  games  where  one  player  fills  in  the  blanks  of  another  player’s  story  by  providing  words of  certain  types.  When  the  words  are  substituted  in  for  the  blanks,  the  result  is  a  complete,  grammatically correct  but  often  nonsensical  story.
 
