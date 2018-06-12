@@ -73,8 +73,9 @@ else:
 ```
 
 Fill in the following table with the appropriate outputs (the answers can be entered into `blackjack.py` using comments):
+
 | card1 | card2 | dealer_card | output |
-| ------|:-----:| -----------:|:------:|
+| ----- | ----- | ----------- | ------ |
 | 3     | 8     | 4           |        |
 | 9     | 8     | 10          |        |
 | 11    | 10    | 10          |        |
