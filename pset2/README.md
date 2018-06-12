@@ -84,7 +84,7 @@ Copy  the  parfait  cream  recipe  from `parfaitcream.txt` and  paste  it  into 
 Print  all  of  the  recipes  now,  with  your  border  before  the  titles,  after  the  titles,  and  after  the  text  of the  recipe.
 
 ### 3. Mystery program - `mystery.py`
-Do not run this program. Just look at it and determine outputs. Look at this code fragment and trace what's happening. Find out what the final outcome is and *show your work* by commenting in `mystery.py`.
+Do not run this program. Just look at it and determine outputs. Look at this code fragment and trace what's happening. Find out what the final outcome is and *show your work* by creating a file called `mystery.py` and commenting in it.
  
 ```python
 def  b(z):
