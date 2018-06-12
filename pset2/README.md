@@ -22,7 +22,7 @@ Run this code. We will now go through some examples using these functions. Answe
 **What happens when we call the functions below? (Try getting the answer on your own and use IDLE only to check your answer).**
 
 Example 1:
-```
+```python
 >>> f1(3)
 ?
 >>> f2(3)
@@ -32,7 +32,7 @@ Example 1:
 From example 1, it looks like they behave in exactly the same way, but they really don't.
 
 Example 2: Try this:
-```
+```python
 >>> a = f1(3)
 >>> b = f2(3)
 >>> a
@@ -43,7 +43,7 @@ Example 2: Try this:
 **What are the values of a and b? Why are they different?**
 
 Example 3: Now run the following code:
-```
+```python
 >>> print f1(3)
 ?
 ?
@@ -53,7 +53,7 @@ Example 3: Now run the following code:
 **What is the output? Why are you getting this output?**
 
 Example 4:
-```
+```python
 >>> f1(3) + 1
 ? 
 ?
@@ -83,28 +83,28 @@ Copy  the  parfait  cream  recipe  from `parfaitcream.txt` and  paste  it  into 
 
 Print  all  of  the  recipes  now,  with  your  border  before  the  titles,  after  the  titles,  and  after  the  text  of the  recipe.
 
-### 3. Doing math - `calculator.py`
-We can also use Python as a calculator. The basic operations are: 
+### 3. Mystery program - `mystery.py`
+Do not run this program. Just look at it and determine outputs. Look at this code fragment and trace what's happening. Find out what the final outcome is and *show your work* by commenting in `mystery.py`.
  
-> \+ Addition 
->
-> \- Subtraction 
->
-> \* Multiplication 
->
->\/ Division 
->
->\** Exponentiation 
- 
-Let’s use Python to solve the following problem: 
- 
-If you run a 5K race in 20 minutes 30 seconds, what is your **average time (minutes) per mile**? What is your **average speed in miles per hour**? *Hint: There are 1.61 kilometers in a mile.* In your program, store useful values in variables, and print your final answers!
+```python
+def  b(z):
+     prod  =  a(z,  z)
+     print  z,  prod
+     return  prod
+def  a(x,  y):
+     x=x+1
+     prod  =  x  *  y
+     return  prod
+def  c(x,  y,  z):
+     sum  =  x  +  y  +  z
+     pow  =  b(sum)  **  2
+     return  pow
+x=1
+y=x+1
+res  =  c(x,  y+3,  x+y)
+print  res
+```
 
-
-For this part of the problem set, we want to add comments to the hello.py file that we just wrote. 
-Now, *edit the program from the previous exercise and add a comment at the beginning of the file with 
-the filename, your name, anyone you worked with (no one if it’s no one), and a sentence about what it does*. 
-You should do that for all future programs. 
 
 ### 4. String operators - `stringop.py`
 String operators are less intuitive than those on numbers. Given the following variables, what are the values of these expressions? (Try getting the answer on your own and use Sublime only to check your answer.)
