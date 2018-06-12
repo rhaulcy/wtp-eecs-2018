@@ -92,9 +92,9 @@ First,  fill  in  the  missing  code  in `cardlist.py`,  as  described  in  the 
 Now,  build  on  the  code  you  wrote  in `cardlist.py` to  fill  in `cardcountvalue.py`.  This  program prompts  the  user  for  one  card’s  value  (assume  it  is  a  single  card,  not  part  of  a  series  of  cards)  and produces  the  corresponding  card  counting  value  for  it,  according  to  the  MIT  card  counting  approach. (If  the  user’s  response  is  invalid,  it  tells  the  user  it  was  invalid.) 
 
 Specifically,  MIT  card  counting  approach  assigns  card  counting  values  as  follows:
-  •2  -  6  should  add  one  to  the  count,  so  their  value  is  1
-  •7  -  9  have  no  effect  on  the  count,  so  their  value  is  0
-  •A,  10,  J,  Q,  and  K,  should  subtract  one  from  the  count,  so  their  value  is  -1
+  * 2  -  6  should  add  one  to  the  count,  so  their  value  is  1
+  * 7  -  9  have  no  effect  on  the  count,  so  their  value  is  0
+  * A,  10,  J,  Q,  and  K,  should  subtract  one  from  the  count,  so  their  value  is  -1
   
 We  will  finish  the  card  counting  program  tomorrow  on  ps4,  and  you  will  re-use  the  code  you  wrote  today!
  
