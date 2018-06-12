@@ -91,44 +91,35 @@ def  b(z):
      prod  =  a(z,  z)
      print  z,  prod
      return  prod
+     
 def  a(x,  y):
      x=x+1
      prod  =  x  *  y
      return  prod
+     
 def  c(x,  y,  z):
      sum  =  x  +  y  +  z
      pow  =  b(sum)  **  2
      return  pow
-x=1
-y=x+1
-res  =  c(x,  y+3,  x+y)
-print  res
+     
+x = 1
+y = x + 1
+res = c(x,  y+3,  x+y)
+print res
 ```
 
+Once you are done, you can run the code to verify that your answer is correct.
 
-### 4. String operators - `stringop.py`
-String operators are less intuitive than those on numbers. Given the following variables, what are the values of these expressions? (Try getting the answer on your own and use Sublime only to check your answer.)
+### 4. Not equal - `not_equal.py`
+Imagine  that  the `!=` operator  for  numbers  has  suddenly  been  removed  from  the  Python  programming language.  We  need  to  find  a  way  to  replace  it  with  the  remaining  operators  in  the  language.  Remember that  before  it  went  missing,  the `!=` operator  took  two  numbers,  and  returned `True` if  they  were  not  equal to  one  another,  and `False` otherwise.
 
-```
-# Variables
-look = "Look at me!" 
-now = " NOW"
+In `not_equal.py`,  write  a  function `not_equal`.  We  still  have  the `not` operator  (which  can  be  applied  to booleans)  and  the `==` operator,  which  can  be  applied  to  numbers. 
 
-# Expressions
-look[:4] 
- 
-look[-1] 
- 
-look*2 
- 
-look[:-1] + now + look[-1]
- 
-now[1]
- 
-now[4]
- 
-look*2 + look[:-1] + now + look[-1] 
-```
+Now  let’s  try  and  test  our  new  function.  Create  4  variables `a`, `b`, `c`,  and `d`,  such  that `a` and `b` have the same  value,  and `c` and `d` are  different  from  one  another. 
+
+Now  write  a  call  to  your `not_equal` function,  passing it `a` and `b`,  and  assign  its  return  value  to  a  variable `not_equal_test1`.  Then  print  out  the  value  of `a` and `b` and  the  value  that  was  returned  by  your  function `not_equal`.  This  tests  whether  your  function  does  the  right  thing  when  the  two  values  are  actually  equal. 
+
+Now  test  that  your  function  works  when  the  parameters  are  not  equal  (by  passing  it `c` and `d`).  Assign  the return  value  to  a  variable `not_equal_test2`,  and  print  out  the  values.
 
 ### 5. Greetings - `greetings.py`
 Print  a  greeting  saying  **“Hello,  Michelle"** and  **“Goodbye,  Obama"**  using  only  the  variables  provided  in `greetings.py`.  Complete instructions are in the file.
