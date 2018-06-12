@@ -9,7 +9,7 @@ $ git clone {your-link-here}
 
 Open the template file `print_vs_return.py`. In it, these two functions are defined: 
 
-```
+```python
 def f1(x):
     print x + 1
 
@@ -17,9 +17,9 @@ def f2(x):
     return x + 1
 ```
 
-Run this code. We will now go through some examples using these functions. Fill in the question marks from what you see in your interactive display.
+Run this code. We will now go through some examples using these functions. Answer all the bolded questions by commenting in `print_vs_return.py`.
 
-What happens when we call the functions below? (Try getting the answer on your own and use IDLE only to check your answer).
+**What happens when we call the functions below? (Try getting the answer on your own and use IDLE only to check your answer).**
 
 Example 1:
 ```
@@ -40,7 +40,7 @@ Example 2: Try this:
 >>> b
 ?
 ```
-What are the values of a and b? Why are they different?
+**What are the values of a and b? Why are they different?**
 
 Example 3: Now run the following code:
 ```
@@ -50,7 +50,7 @@ Example 3: Now run the following code:
 >>> print f2(3)
 ?
 ```
-What is the output? Why are you getting this output?
+**What is the output? Why are you getting this output?**
 
 Example 4:
 ```
@@ -62,9 +62,9 @@ Example 4:
 >>> f2(3) + 1
 ?
 ```
-What is the output? Why are you getting this output? What do all of these examples tell us about when we want to return and when we want to print? (When is printing useful? When is returning useful?)
+**What is the output? Why are you getting this output? What do all of these examples tell us about when we want to return and when we want to print? (When is printing useful? When is returning useful?)**
 
-Note: You might find it useful to explicitly `return None` when you don't want your function to return anything. This way, you'll always remember that what Python is `actually` doing is returning `None` if you don't tell it to return anything.
+Note: You might find it useful to explicitly `return None` when you don't want your function to return anything. This way, you'll always remember that what Python is *actually* doing is returning `None` if you don't tell it to return anything.
 
 ### 2.  Adding comments 
 At the beginning, your programs will be small and easy to understand. Over time, they’ll get bigger and more complicated. Instead of having to understand what every line of code does, you can add comments to your code that explain what you were trying to do. 
