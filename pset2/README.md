@@ -125,17 +125,54 @@ Now  test  that  your  function  works  when  the  parameters  are  not  equal  
 Let’s  make  a  simple  graphics  program.  Open `simple_graphics.py` in  IDLE,  but  don’t  run  it  yet!  You  can find  all  the  documentation  for  the  graphics  module  on  the  website http://tinyurl.com/graphics-py (or http://mcsp.wartburg.edu/zelle/python/graphics/graphics/graphics.html).  We  explain  the code in `simple_graphics.py` below.
 
 ***
- 
-### 6. Optional Challenge:
-Revisit Question 1, and write a program that prints **“Hello \<name>!!!”** in a box of stars for ANY name.
 
-*Hint: Find the length of a string with  len(a_string)*
+**from  graphics  import  *
+
+This  tells  us  that  we’re  going  to  use  graphics.  Importing  graphics  gives  us  access  to  all  sorts  of  graphics commands  that  someone  else  has  made  for  us.
+
+**win  =  GraphWin('My  Circle',  100,  100)**
+We’re  creating  a  new  graphics  window,  called `win` of  type `GraphWin` (part  of  the  graphics  module).  We’re calling  it `My  Circle` and  telling  it  to  have  dimensions  of  100 x 100  pixels.
+
+**c  =  Circle(Point(50,  50),  10)**
+We’re  creating  a  circle  called `c` with  a  center  point  at  (50,50)  and  with  a  radius  of  10.  Note  that  the center  of  the  circle  is  a  (unnamed) `Point` with  coordinates  (x,  y)  =  (50,50).
+
+**c.setFill('red')**
+We’re  coloring  the  circle  red.  This  can  take  most  normal  colors.  See  the  documentation  under *Generating Colors* for  more  information.
+
+**c.draw(win)
+win.mainloop()**
+Now  that  we’ve  decided  on  attributes  for  the  circle  (position,  size,  and  color),  we’re  actually  drawing  it on  the  screen.
+
+***
+
+Now  run  the  code.  A  window  with  your  image  will  pop  up!
+
+Feel  free  to  try  playing  around  with  some  of  the  values  –  see  where  things  break,  and  see  where  you  can change  things.  Then  change  the  code  to  do  the  following  things:
+
+(a)Make  your  circle  bigger  -  specifically,  double  the  radius.
+
+(b)Your  circle  is  currently  centered  in  your  window.  Change  your  code  so  that  the  circle  is  now  located in  the  upper  right  hand  corner  of  the  window.  Specifically,  the  center  of  the  circle  should  be  located in  the  middle  of  the  upper-right  quadrant  of  the  window.  (Hint:  coordinates  are  counted  from  the top-left  corner.  You  can  also  use  a  trial-and-error  approach  by  changing  the  numbers  for  the  circle until  you  get  what  you  want!)
+
+(c)Make  the  circle  yellow.
+
+(d)Make  the  outline  of  the  circle  purple.  (Hint:  you  will  need  to  look  up  how  to  do  this in the  online  graphics  documentation.  Remember  that  all  the  functions for  “Graphics  Objects”  can  be  used  for  any  shapes!)
+
+(e)Then  submit  your  code.
+ 
+### 6. Yummy graphics (optional) - `parfait_graphics.py` 
+We  already  know  how  to  print  text  in  the  Python  shell,  but  sometimes  we  may  want  to  “draw”  text,  so that  we  can  decide  its  color,  size,  and  more.  The  code  in `parfait_graphics.py` is  an  example  of  how  to draw  text  on  the  screen.  Run  the  program  to  see  the  text  it  draws  in  the  window.
+
+Now,  change  the  font  size,  style,  and  color  of  the  text.  (You  can  pick  whatever  you  like!)  Look  at  the `setSize`, `setStyle`, and `setTextColor` methods  in  the  documentation  under  Text  methods.  All  the `set` methods  that  change  the  attributes  of  the  graphics  object  automatically  update  its  appearance  on  the screen.
+
+After  you’ve  played  around,  use  the  functions  you  wrote  in  exercise  2  in `desserts.py` to  “draw”  your recipe  for  ladyfinger  parfaits  on  the  screen.  (*Hint:  Change  the `print` statements  to  draw  text  on  the screen  instead.  You  will  need  to  choose  the  locations  to  “draw”  each  line  of  text!)*
+
+Create  a  function  called `parfait_stamp` that  takes  in  an `x` and a `y` value  and  draws  a  ladyfinger  parfait centered  around  the  point  (x,  y)  on  the  screen.  (Don’t  worry:  we’re  not  grading  for  realism.)  Decorate your  recipe!
 
 ### Submitting your PSET
 After you’ve finished your PSET, type into the terminal:
 ```
 $ git add -A
-$ git commit -m "Submitting pset 1"
+$ git commit -m "Submitting pset 2"
 $ git push
 ```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 1"), but the instructors will be able to see it!
+You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 2"), but the instructors will be able to see it!
