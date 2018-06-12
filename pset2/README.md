@@ -149,15 +149,15 @@ Now  run  the  code.  A  window  with  your  image  will  pop  up!
 
 Feel  free  to  try  playing  around  with  some  of  the  values  –  see  where  things  break,  and  see  where  you  can change  things.  Then  change  the  code  to  do  the  following  things:
 
-(a)Make  your  circle  bigger  -  specifically,  double  the  radius.
+(a) Make  your  circle  bigger  -  specifically,  double  the  radius.
 
-(b)Your  circle  is  currently  centered  in  your  window.  Change  your  code  so  that  the  circle  is  now  located in  the  upper  right  hand  corner  of  the  window.  Specifically,  the  center  of  the  circle  should  be  located in  the  middle  of  the  upper-right  quadrant  of  the  window.  (Hint:  coordinates  are  counted  from  the top-left  corner.  You  can  also  use  a  trial-and-error  approach  by  changing  the  numbers  for  the  circle until  you  get  what  you  want!)
+(b) Your  circle  is  currently  centered  in  your  window.  Change  your  code  so  that  the  circle  is  now  located in  the  upper  right  hand  corner  of  the  window.  Specifically,  the  center  of  the  circle  should  be  located in  the  middle  of  the  upper-right  quadrant  of  the  window.  (Hint:  coordinates  are  counted  from  the top-left  corner.  You  can  also  use  a  trial-and-error  approach  by  changing  the  numbers  for  the  circle until  you  get  what  you  want!)
 
-(c)Make  the  circle  yellow.
+(c) Make  the  circle  yellow.
 
-(d)Make  the  outline  of  the  circle  purple.  (Hint:  you  will  need  to  look  up  how  to  do  this in the  online  graphics  documentation.  Remember  that  all  the  functions for  “Graphics  Objects”  can  be  used  for  any  shapes!)
+(d) Make  the  outline  of  the  circle  purple.  (Hint:  you  will  need  to  look  up  how  to  do  this in the  online  graphics  documentation.  Remember  that  all  the  functions for  “Graphics  Objects”  can  be  used  for  any  shapes!)
 
-(e)Then  submit  your  code.
+(e) Then  submit  your  code.
  
 ### 6. Yummy graphics (optional) - `parfait_graphics.py` 
 We  already  know  how  to  print  text  in  the  Python  shell,  but  sometimes  we  may  want  to  “draw”  text,  so that  we  can  decide  its  color,  size,  and  more.  The  code  in `parfait_graphics.py` is  an  example  of  how  to draw  text  on  the  screen.  Run  the  program  to  see  the  text  it  draws  in  the  window.
