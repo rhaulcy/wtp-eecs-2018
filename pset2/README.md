@@ -68,15 +68,16 @@ Note: You might find it useful to explicitly `return None` when you don't want y
 
 ### 2.  Making desserts with Python - `desserts.py`
 Use the provided code to "make" desserts with Python.
+
 **Hint:** Remember the differences between `return` and `print`. Do we want our functions to return or print in this problem?
 
-(a) We’ve  given  you  a  very  basic  recipe  for  tiramisu  –  you  combine  ladyfingers,  mascarpone  cream,  andespresso  syrup.  However,  it  just  comes  out  in  one  big  chunk.  We  need  you  to  be  organized  chefs  and make  a  separate  function  for  each  of  the  parts.
+(a) We’ve  given  you  a  very  basic  recipe  for  tiramisu  –  you  combine  ladyfingers,  mascarpone  cream,  and espresso  syrup.  However,  it  just  comes  out  in  one  big  chunk.  We  need  you  to  be  organized  chefs  and make  a  separate  function  for  each  of  the  parts.
 
-Make  separate  functions  for  ladyfingers,  mascarpone  cream,  and  espresso  syrup.  The  functionsshould  print  out  the  individual  recipes  for  each  of  those  parts.  Make  a  function  for  tiramisu  thatcalls  each  of  the  functions  of  its  component  parts.  When  you  run  it,  it  should  output  the  same  thingas  the  original  program  did,  but  be  much  more  organized  in  the  code!
+Make  separate  functions  for  ladyfingers,  mascarpone  cream,  and  espresso  syrup.  The  functions should  print  out  the  individual  recipes  for  each  of  those  parts.  Make  a  function  for  tiramisu  that calls  each  of  the  functions  of  its  component  parts.  When  you  run  it,  it  should  output  the  same  thing as  the  original  program  did,  but  be  much  more  organized  in  the  code!
 
-(b) Now  you  should  make  a  new  function  that  prints  out  a  nice  border,  something  like  this:__________----------**********oooooOOOOOooooo**********----------__________or  this:<><><><><><><><><>[][][][][][][][]<><><><><><><><><>Print  the  border  out,  using  the  function  you  just  created,  at  the  beginning  of  the  recipe,  after  thetitle,  and  at  the  end.
+(b) Now  you  should  make  a  new  function  that  prints  out  a  nice  border,  something  like  this: __________----------**********oooooOOOOOooooo**********----------__________ or  this: <><><><><><><><><>[][][][][][][][]<><><><><><><><><> Print  the  border  out,  using  the  function  you  just  created,  at  the  beginning  of  the  recipe,  after  the title,  and  at  the  end.
 
-(c) You’re  a  very  innovative  chef  and  have  come  up  with  a  new  recipe  –  ladyfinger  parfaits.  This  recipe is  one  part  ladyfingers,  which  you  already  have  a  recipe  for,  and  one  part  parfait  cream.
+(c) You’re  a  very  innovative  chef  and  have  come  up  with  a  new  recipe  –  ladyfinger  parfaits.  This  recipe is  one part  ladyfingers,  which  you  already  have  a  recipe  for,  and  one  part  parfait  cream.
 
 Copy  the  parfait  cream  recipe  from `parfaitcream.txt` and  paste  it  into `desserts.py`.  (You  can highlight  the  text  with  your  mouse,  then  copy  and  paste.)  Then  edit  your  code  to  make  a  new function  that  prints  out  the  recipe,  like  you  did  for  the  ladyfingers  recipe  above.  Then  make  a  new function  for  your  combined  ladyfinger  parfaits  recipe,  too  –  using  the  ladyfinger  function  and  parfait cream  function.
 
