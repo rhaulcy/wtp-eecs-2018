@@ -121,8 +121,8 @@ Now  write  a  call  to  your `not_equal` function,  passing it `a` and `b`,  an
 
 Now  test  that  your  function  works  when  the  parameters  are  not  equal  (by  passing  it `c` and `d`).  Assign  the return  value  to  a  variable `not_equal_test2`,  and  print  out  the  values.
 
-### 5. Greetings - `greetings.py`
-Print  a  greeting  saying  **“Hello,  Michelle"** and  **“Goodbye,  Obama"**  using  only  the  variables  provided  in `greetings.py`.  Complete instructions are in the file.
+### 5. Simple graphics - `simple_graphics.py`
+Let’s  make  a  simple  graphics  program.  Open `simple_graphics.py` in  IDLE,  but  don’t  run  it  yet!  You  can find  all  the  documentation  for  the  graphics  module  on  the  website http://tinyurl.com/graphics-py (or http://mcsp.wartburg.edu/zelle/python/graphics/graphics/graphics.html).  We  explain  the code in `simple_graphics.py` below.
  
 ### 6. Optional Challenge:
 Revisit Question 1, and write a program that prints **“Hello \<name>!!!”** in a box of stars for ANY name.
