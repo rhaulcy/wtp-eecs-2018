@@ -17,7 +17,7 @@ Write a program that will print “Hello, <your_name>!!!” in a box like this:
 ##########################
 ```
 
-*Hint: You will need to use more than one `print()` command.*
+*Hint: You will need to use more than one `print` command.*
 
 You should put each command on a new line. 
 
@@ -28,7 +28,7 @@ You can add a comment using the # sign:
 
 ``` python
 # Print a message to the screen 
-print("hello, wtp!") 
+print "hello, wtp!"
 ```
 Comments are ignored by the computer – you can write anything you want there. 
 Best practice, and what we would like you to do in this class, is to write code that explains 
