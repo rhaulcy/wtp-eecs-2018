@@ -82,58 +82,43 @@ Fill in the following table with the appropriate outputs (the answers can be ent
 | 3     | 5     | 4           |        |
 | 5     | 8     | 8           |        |
 
-### 5. Simple graphics - `simple_graphics.py`
-Let’s  make  a  simple  graphics  program.  Open `simple_graphics.py` in  IDLE,  but  don’t  run  it  yet!  You  can find  all  the  documentation  for  the  graphics  module  on  the  website http://tinyurl.com/graphics-py (or http://mcsp.wartburg.edu/zelle/python/graphics/graphics/graphics.html).  We  explain  the code in `simple_graphics.py` below.
+### 5. Card Counting in Blackjack
+As  you  may  know  from  the  movie *21*,  there  is  a  technique  to  count  cards  while  playing  Blackjack  that can  help  the  player  determine  when  they  are  likely  to  win  or  lose!  Specifically,  when  counting  cards,  you keep  track  of  a  running  total  that  goes  up  and  down  based  on  the  cards  you  have  seen.  In  this  problem, we  will  be  building  a  program  that  will  count  cards  for  the  user.  Detailed  instructions  and  pseudocode are  in  each  file.
 
-***
+(a)**Using  a  list  of  cards** – `cardlist.py`
+First,  fill  in  the  missing  code  in `cardlist.py`,  as  described  in  the  comments.  The  program  should prompt  the  user  for  a  card,  and  check  the  user’s  response  against  the  provided  list.  Then,  the program  should  print  whether  the  user  input  a  valid  or  invalid  card.  This  program  is  the  first  step toward  getting  our  card  counting  code  working!
 
-**from  graphics  import  *
+(b)**Getting  card  values  for  MIT  card  counting** – `cardcountvalue.py`
+Now,  build  on  the  code  you  wrote  in `cardlist.py` to  fill  in `cardcountvalue.py`.  This  program prompts  the  user  for  one  card’s  value  (assume  it  is  a  single  card,  not  part  of  a  series  of  cards)  and produces  the  corresponding  card  counting  value  for  it,  according  to  the  MIT  card  counting  approach. (If  the  user’s  response  is  invalid,  it  tells  the  user  it  was  invalid.) 
 
-This  tells  us  that  we’re  going  to  use  graphics.  Importing  graphics  gives  us  access  to  all  sorts  of  graphics commands  that  someone  else  has  made  for  us.
-
-**win  =  GraphWin('My  Circle',  100,  100)**
-We’re  creating  a  new  graphics  window,  called `win` of  type `GraphWin` (part  of  the  graphics  module).  We’re calling  it `My  Circle` and  telling  it  to  have  dimensions  of  100 x 100  pixels.
-
-**c  =  Circle(Point(50,  50),  10)**
-We’re  creating  a  circle  called `c` with  a  center  point  at  (50,50)  and  with  a  radius  of  10.  Note  that  the center  of  the  circle  is  a  (unnamed) `Point` with  coordinates  (x,  y)  =  (50,50).
-
-**c.setFill('red')**
-We’re  coloring  the  circle  red.  This  can  take  most  normal  colors.  See  the  documentation  under *Generating Colors* for  more  information.
-
-**c.draw(win)
-win.mainloop()**
-Now  that  we’ve  decided  on  attributes  for  the  circle  (position,  size,  and  color),  we’re  actually  drawing  it on  the  screen.
-
-***
-
-Now  run  the  code.  A  window  with  your  image  will  pop  up!
-
-Feel  free  to  try  playing  around  with  some  of  the  values  –  see  where  things  break,  and  see  where  you  can change  things.  Then  change  the  code  to  do  the  following  things:
-
-(a)Make  your  circle  bigger  -  specifically,  double  the  radius.
-
-(b)Your  circle  is  currently  centered  in  your  window.  Change  your  code  so  that  the  circle  is  now  located in  the  upper  right  hand  corner  of  the  window.  Specifically,  the  center  of  the  circle  should  be  located in  the  middle  of  the  upper-right  quadrant  of  the  window.  (Hint:  coordinates  are  counted  from  the top-left  corner.  You  can  also  use  a  trial-and-error  approach  by  changing  the  numbers  for  the  circle until  you  get  what  you  want!)
-
-(c)Make  the  circle  yellow.
-
-(d)Make  the  outline  of  the  circle  purple.  (Hint:  you  will  need  to  look  up  how  to  do  this in the  online  graphics  documentation.  Remember  that  all  the  functions for  “Graphics  Objects”  can  be  used  for  any  shapes!)
-
-(e)Then  submit  your  code.
+Specifically,  MIT  card  counting  approach  assigns  card  counting  values  as  follows:
+  •2  -  6  should  add  one  to  the  count,  so  their  value  is  1
+  •7  -  9  have  no  effect  on  the  count,  so  their  value  is  0
+  •A,  10,  J,  Q,  and  K,  should  subtract  one  from  the  count,  so  their  value  is  -1
+  
+We  will  finish  the  card  counting  program  tomorrow  on  ps4,  and  you  will  re-use  the  code  you  wrote  today!
  
-### 6. Yummy graphics (optional) - `parfait_graphics.py` 
-We  already  know  how  to  print  text  in  the  Python  shell,  but  sometimes  we  may  want  to  “draw”  text,  so that  we  can  decide  its  color,  size,  and  more.  The  code  in `parfait_graphics.py` is  an  example  of  how  to draw  text  on  the  screen.  Run  the  program  to  see  the  text  it  draws  in  the  window.
+### 6. Guess Your Number (optional) - `guessnum2.py` 
+Write  a  Guess  Your  Number!  game.  In  this  game,  the  program  will  try  to  guess  your  number!  Here  is  an example  of  how  the  program  will  work:
 
-Now,  change  the  font  size,  style,  and  color  of  the  text.  (You  can  pick  whatever  you  like!)  Look  at  the `setSize`, `setStyle`, and `setTextColor` methods  in  the  documentation  under  Text  methods.  All  the `set` methods  that  change  the  attributes  of  the  graphics  object  automatically  update  its  appearance  on  the screen.
+```
+I'm  ready  to  guess!
+What  is  the  minimum  possible  number?  0
+What  is  the  maximum  possible  number?  30
+Hmm...I  guess  5.  Is  that  (1)  too  low,  (2)  too  high,  or  (3)  correct?  1
+I  guess  20.  Is  that  (1)  too  low,  (2)  too  high,  or  (3)  correct?  2
+I  guess  13.  Is  that  (1)  too  low,  (2)  too  high,  or  (3)  correct?  1
+I  guess  17.  Is  that  (1)  too  low,  (2)  too  high,  or  (3)  correct?  3
+Yay!  So  your  number  was  17.  Good  game.
+```
 
-After  you’ve  played  around,  use  the  functions  you  wrote  in  exercise  2  in `desserts.py` to  “draw”  your recipe  for  ladyfinger  parfaits  on  the  screen.  (*Hint:  Change  the `print` statements  to  draw  text  on  the screen  instead.  You  will  need  to  choose  the  locations  to  “draw”  each  line  of  text!)*
-
-Create  a  function  called `parfait_stamp` that  takes  in  an `x` and a `y` value  and  draws  a  ladyfinger  parfait centered  around  the  point  (x,  y)  on  the  screen.  (Don’t  worry:  we’re  not  grading  for  realism.)  Decorate your  recipe!
+Think  about  what  strategy  the  program  should  use  to  guess  your  number.  What  does  it  need  to  remember? These  are  your  variables.  Give  the  computer  5  guesses  before  it  gives  up  and  asks  for  the  answer.
 
 ### Submitting your PSET
 After you’ve finished your PSET, type into the terminal:
 ```
 $ git add -A
-$ git commit -m "Submitting pset 2"
+$ git commit -m "Submitting pset 3"
 $ git push
 ```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 2"), but the instructors will be able to see it!
+You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 3"), but the instructors will be able to see it!
