@@ -101,6 +101,42 @@ As  you  can  see,  we  use  a  list  of  9  items  to  represent  the  9  squar
 We  would  suggest  mapping  the  n-th  list  element  to  the  (i,  j)th  square  in  the  tic-tac-toe  board  as follows:
 ![alt text](screenshots/tictactoe.png "")
 
+Think  of  a  formula  function `f` that  uses `i` and `j` to  come  up  with  the  list  index, `n`,  that  corresponds to  the  (i,  j)th  square.  For  example,  your  formula  should  take  in  the  following  (i,  j)  input  and  output the  following  n:
+```python
+(i,  j)  ->  n
+(0,  0)  ->  0
+(0,  1)  ->  1
+(0,  2)  ->  2
+(1,  0)  ->  3
+...
+```
+
+Write  your  formula  function `f(i,j)` that  gives  the  corresponding `n` in a comment in the file.
+
+Based  on  our  above  description,  what  would  the  following  board  states  describe?
+```python
+board_state_1=["","","","","","","","",""]
+board_state_2=["O",  "","","","","","","",""]
+board_state_3=["","",  "X",  "",  "X",  "",  "X",  "O",  "O"]
+```
+
+Draw  three  pictures  of  tic-tac-toe  boards,  and  label  which  list  each  picture  corresponds  to  (`board_state_1`, `board_state_2`,  or `board_state_3`).
+
+(d) Fill  in  the  function `is_empty(i,  j)` which  uses `board_state` to  check  whether  the  (i,  j)th  square  of the  board  is  empty.  (You  can  assume `board_state` is  as  we  described  above,  although  we  have  not yet  written  any  code  to  update  or  change  it.)
+
+(e) Fill  in  the  function `update_board_state(i,  j,  player)`,  which  should  update  the  board  state  to remember  that  player `player`(i.e.,  X  or  O)  played  in  the  the  (i,  j)th  square  of  the  board.
+
+(f) Assuming  that  the `board_state` variable  works  as  we  described,  fill  in  the  function `is_board_full`, which  checks  the  board  state  and  returns `True` if  the  board  is  full,  and `False` otherwise.
+
+(g) Assuming  that  the `board_state` variable  works  as  we  described,  fill  in `is_over()`.  The  function should  return `True` if  the  game  is  over,  and `False` otherwise.  What  are  all  the  ways  a  game  can  be over? Also,  if  the  game  is  over,  it  should  print  a  message  explaining  why  (for  example,  “Player  X  won!”). You  will  also  find `is_board_full` helpful  –  if  the  board  is  full,  is  the  game  over?
+
+(h) Now,  we  will  fill  in  what  happens  during  one  player’s  turn  –  the  psuedocode  is  at  the  bottom  of  the file.  Have  the  players  click  the  mouse  in  the  window.  (Hint:  the  function `getMouse()` should  help.) Use  the  pointer  position  at  the  time  of  the  click  to  determine  what  square  on  the  board  the  player chose.  Try  to  place  the  player’s  symbol  in  that  square.  What  should  you  do  if  there  is  already  a symbol  there? 
+
+As  a  programmer,  you  should  always  consider  “edge  conditions”  like  these  when  you  program!  Another  way  to  put  it  –  always  assume  that  the  users  of  your  program  will  be  trying  to  find  a  way  tobreak  it.  If  you  don’t  include  a  condition  that  checks  if  there  is  already  a  symbol  in  the  square  the user  chose,  what  will  happen? 
+
+**Hint:** Remember  to  use  the  functions  you  have  already  written,  like `is_empty`, `update_board_state`, `draw_O`,  and `draw_X`.  Don’t  forget  that  the  board  state  and  the  drawn  board  must  both  be  updated separately!
+
+(i) Fill  in  the  rest  of  the  section  titled ACTUAL  GAMEPLAY.  This  will  include  some  sort  of  loop  around one  player’s  turn,  so  that  players  can  play  until  one  of  them  wins  or  the  game  ends  in  a  tie.  Printout  the  result  of  the  game.
 
 ### Submitting your PSET
 After you’ve finished your PSET, type into the terminal:
