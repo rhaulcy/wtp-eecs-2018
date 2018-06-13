@@ -47,6 +47,8 @@ for  letter  in  my_string:
 print  res
 ```
 
+Once you are done, you can run the code to check your answers. 
+
 ### 2.  Exponentials - `exponential.py`
 Imagine  that  the `**` operator  for  numbers  has  now  been  removed  from  the  Python  programming  language. Write  a  program  that  prompts  the  user  for  a  base  and  an  exponent  and  uses  a `for` loop  to  calculate `base**exp`.
 
