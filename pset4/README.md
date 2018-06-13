@@ -74,9 +74,9 @@ The `sleep(ns)` command  in  the `time` module  pauses  the  program  for `ns` s
 
 (b) Cool!  If  we  let  the  animation  keep  going,  then  the  circle  will  move  off  the  right  edge  of  the  screen. Add  a  variable `x` to  keep  track  of  the  circle’s  position  and  a  variable `dx` for  its  velocity.  The  circle initially  starts  at  (100,  150),  so  by  updating `x` each  time  it  moves,  we  can  track  where  the  circle  is going.  When  the  circle  reaches  the  edge  of  the  screen,  make  it  change  direction.  Do  this  for  both directions  so  that  the  circle  bounces  back  and  forth  inside  the  screen.
 
-(c) (Optional) Add  some  movement  in  the y-direction  so  that  the  circle  bounces  around  the  entire window.  Experiment  with  starting  the  circle  at  different  locations  or  changing  its  velocity.
+(c) **(Optional)** Add  some  movement  in  the y-direction  so  that  the  circle  bounces  around  the  entire window.  Experiment  with  starting  the  circle  at  different  locations  or  changing  its  velocity.
 
-(d) (Optional) Finally,  count  the  number  of  times  the  ball  hits  the  edge  of  the  screen.  Stop  the animation  once  the  ball  has  bounced  10  times.
+(d) **(Optional)** Finally,  count  the  number  of  times  the  ball  hits  the  edge  of  the  screen.  Stop  the animation  once  the  ball  has  bounced  10  times.
 
 ### Submitting your PSET
 After you’ve finished your PSET, type into the terminal:
