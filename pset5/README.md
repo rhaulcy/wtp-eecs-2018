@@ -99,7 +99,7 @@ As  you  can  see,  we  use  a  list  of  9  items  to  represent  the  9  squar
   * If  the  list  element  is  the  string "O",  it  means  the  corresponding  square  has  an  O  in  it. 
   
 We  would  suggest  mapping  the  n-th  list  element  to  the  (i,  j)th  square  in  the  tic-tac-toe  board  as follows:
-![alt text](screenshots/tictactoe.PNG "")
+![alt text](screenshots/tictactoe.png "")
 
 
 ### Submitting your PSET
