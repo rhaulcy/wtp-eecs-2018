@@ -84,8 +84,8 @@ The `sleep(ns)` command  in  the `time` module  pauses  the  program  for `ns` s
 After you’ve finished your PSET, type into the terminal:
 ```
 $ git add -A
-$ git commit -m "Submitting pset 3"
+$ git commit -m "Submitting pset 4"
 $ git push
 ```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 3"), but the instructors will be able to see it!
+You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 4"), but the instructors will be able to see it!
 
