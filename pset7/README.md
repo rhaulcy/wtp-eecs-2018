@@ -106,10 +106,40 @@ class  I_shape(Shape):
 ```
 As  you  can  see  in  the  example,  the  `I_shape` constructor  takes  one  parameter, `center`,  which  is  a `Point` that  holds  the  position  of  the  central  block  in  the  shape  (i.e.,  the  center  of  rotation).  It  also  creates  and saves  a `center_block` attribute  of  the `I_shape` class,  which  uses  the `blocks` attribute  that  you  will  create in  the `Shape` class.  We  have  defined  the  central  block  for  each  tetromino  as  the  blocks  colored  in  black below:
 ![alt text](screenshots/blocks.png "")
+*Note:  You  do  not  have  to  follow  the  color  scheme  of  the  tetrominoes  shown  in  the  picture  –  all  your  blocks can  be  blue  (or  you  can  color  them  however  you  want).*
 
+Once  you  have  written  your `Shape` class,  verify  that  it  can  display  the `I_shape` correctly,  using  the  code below:
+```python
+win  =  GraphWin("Tetrominoes",  200,  150)
 
+shape  =  I_shape(Point(1,  1))
+shape.draw(win) #  Draw  an  I_shape  at  (1,  1)
+shape.move(2, 1)  #  Move  the  I_shape  to  (3,  2)
 
+win.mainloop()
+```
 
+**Many  Tetrominoes**
+Now  create  a  subclass  for  each  of  the  other  6  shapes.  The  central  block  for  each  subclass  (tetromino)  is defined  in  the  figure  on  the  previous  page. 
+
+You  can  test  all  of  your  tetromino  subclasses  using  the  example  code  below:
+```python
+win  =  GraphWin("Tetrominoes",  900,  150)
+
+#  a  list  of  shape  classes
+tetrominoes  =  [I_shape,  J_shape,  L_shape,  O_shape,  S_shape,  T_shape,  Z_shape]
+cx  =  0
+for  tetromino  in  tetrominoes:
+  #  create  a  shape  centered  at  row  1,  column  3
+  shape  =  tetromino(Point(3,  1))
+  shape.draw(win)
+  shape.move(cx, 0)
+  cx  +=  4
+  
+win.mainloop()
+```
+
+Congratulations!  You  have  finished  the  first  step  towards  your  tetris  game:  creating  all  the  tetrominoes!
 
 ### Submitting your PSET
 After you’ve finished your PSET, type into the terminal:
