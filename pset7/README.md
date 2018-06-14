@@ -57,6 +57,7 @@ We  are  going  to  create  our  own  version  of  the  basic  Tetris  game  for
 As  you  can  see,  each  of  the  tetrominoes  is  made  up  of  4  squares,  which  we  will  call  "blocks".  (Note: remember  that  a  square  is  a  type  of  rectangle!)
 
 **Blocks** 
+
 The  tetris  board  is  10  squares  wide  by  20  squares  high.  Each  block  (of  a  tetris  shape)  occupies  a  single square  at  a  time.  In  the  file `tetrominoes.py`,  create  a `Block` class  that  inherits  from  the `Rectangle` class from  the `graphics` module  and  save  it. 
 **Hint:** Look  up  the  documentation  for  the `Rectangle` class  from  the `graphics` module  now!  You  can  use the  reference  packet  we  handed  out,  or  the  online  documentation  at http://tinyurl.com/graphics-py. Note  the  constructor  and  its  other  methods  –  you  will  find  some  of  these  useful.
 
@@ -75,6 +76,7 @@ win.mainloop()
 *Hint:  Think  about  how  you  can  use  the  Rectangle  constructor  in  your  Block  constructor.*
 
 **Moving  blocks**
+
 Add  a `move` method  to  your `Block` class  that  will  take  as  parameters `dx` and `dy` telling  the  block  to  move
 dx  squares  (not  pixels!)  in  the  x-direction  and  dy  squares  in  the  y-direction.  Again,  our  y-axis  will  be pointing  downwards. 
 
@@ -91,6 +93,7 @@ win.mainloop()
 *Hint:  Think  about  how  to  reuse  the  Rectangle  superclass  move  method.*
 
 **Tetris  Shape  (Tetromino)**
+
 Now,  we  will  create  a `Shape` class,  which  we  will  use  as  a  parent  class  (superclass)  for  7  different  tetris shapes. `Shape` needs  to  have  a  list  of  4  blocks  as  an  attribute,  as  well  as  a `move` method  and  a `draw` method.  The `move` method  will  take  as  parameters `dx` and`dy` telling  the  shape  to  move  dx  squares  in the  x-direction  and  dy  squares  in  the  y-direction.  The  constructor  should  take  two  parameters  as  shown below:  a  list  of  4 `Points`,  which  should  be  the  locations  of  the  4  blocks,  and  a  color.
 
 As  an  example,  here  is  a  code  snippet  that  uses  the `Shape` class  as  a  parent  class  for  an `I_shape` class.
@@ -120,6 +123,7 @@ win.mainloop()
 ```
 
 **Many  Tetrominoes**
+
 Now  create  a  subclass  for  each  of  the  other  6  shapes.  The  central  block  for  each  subclass  (tetromino)  is defined  in  the  figure  on  the  previous  page. 
 
 You  can  test  all  of  your  tetromino  subclasses  using  the  example  code  below:
