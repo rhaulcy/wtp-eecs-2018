@@ -71,7 +71,7 @@ We’ll  have  users  play  on  a  4×4  grid.  That  makes  8  pairs.  We  can 
 
 Open `concentration.py`.  We  have  already  written  code  for  you  that  shuffles  the  cards  in  a  random  order and  draws  them  in  a  grid  on  the  screen.  Each  card  is  drawn  in  a  color  representing  its  card  value.  Choose your  eight  favorite  colors! 
 
-Add  some  code  to  store  the  grid  of  cards  in  a  dictionary.  For  the  key,  use  a  tuple `(row,  column)`,  which is  the  grid  location  of  the  card.  The  value  will  be  another  tuple `(value,  rect)`,  where `value` is  the  card value  itself  and `rect` is  the  card’s  Rectangle  object  drawn  in  the  user  interface. 
+Add  some  code  to  store  the  grid  of  cards  in  a  dictionary.  For  the  key,  use  a  tuple `(column,  row)`,  which is  the  grid  location  of  the  card.  The  value  will  be  another  tuple `(value,  rect)`,  where `value` is  the  card value  itself  and `rect` is  the  card’s  Rectangle  object  drawn  in  the  user  interface. 
 
 Fill  in  the  function `get_card` that  waits  for  the  user  to  click  on  a  card  and  returns  the  card  location.  Wait for  the  user  to  click  the  mouse  and  convert  the  pointer  coordinates  into  a  card  location  of  the  type  stored in  the  dictionary.  Check  if  that  location  has  a  card  in  it  *(Hint:  Use  the `in` operator  on  the  dictionary  to check  if  there  is  a  key  corresponding  to  the  location).*  Make  the  user  keep  clicking  until  she  clicks  on  an occupied  location.
 
