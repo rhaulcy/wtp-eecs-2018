@@ -71,6 +71,7 @@ else:
     print "hit"
 ```
 
+The table below is provided in `blackjack.py`:
 | card1 | card2 | dealer_card | output |
 | ----- | ----- | ----------- | ------ |
 | 3     | 8     | 4           |        |
