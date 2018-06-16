@@ -93,6 +93,6 @@ Revisit Question 1, and write a program that prints **“Hello \<name>!!!”** i
 *Hint: Find the length of a string with  len(a_string)*
 
 ### Submitting your PSET
-After you’ve finished your PSET, log into you Edmodo account, find the post for Problem Set 1, click "Open Assignment", attach all of the files that you created or edited for Problem Set 1, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
+After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 1, click "Open Assignment", attach all of the files that you created or edited for Problem Set 1, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
 
 
