@@ -1,9 +1,6 @@
 # WTP CS Problem Set 1
 
-To get started, click the green "Clone or download" button and copy the link given. Then, in a terminal, navigate to the location you want to put your new pset folder and type:
-```
-$ git clone {your-link-here}
-```
+To get started, go to www.edmodo.com. Click "Join a group" and use the class code `rb6z2a`. You should see "R'mani Haulcy's Class". Create a new student account, look at the latest posts, find the post for Problem Set 1, and download the files.
  
 ### 1. Writing your first program - `hello.py`
 
@@ -58,7 +55,6 @@ Let’s use Python to solve the following problem:
  
 If you run a 5K race in 20 minutes 30 seconds, what is your **average time (minutes) per mile**? What is your **average speed in miles per hour**? *Hint: There are 1.61 kilometers in a mile.* In your program, store useful values in variables, and print your final answers!
 
-
 For this part of the problem set, we want to add comments to the hello.py file that we just wrote. 
 Now, *edit the program from the previous exercise and add a comment at the beginning of the file with 
 the filename, your name, anyone you worked with (no one if it’s no one), and a sentence about what it does*. 
@@ -97,12 +93,6 @@ Revisit Question 1, and write a program that prints **“Hello \<name>!!!”** i
 *Hint: Find the length of a string with  len(a_string)*
 
 ### Submitting your PSET
-After you’ve finished your PSET, type into the terminal:
-```
-$ git add -A
-$ git commit -m "Submitting pset 1"
-$ git push
-```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 1"), but the instructors will be able to see it!
+After you’ve finished your PSET, log into you Edmodo account, find the post for Problem Set 1, click "Open Assignment", attach all of the files that you created or edited for Problem Set 1, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
 
 
