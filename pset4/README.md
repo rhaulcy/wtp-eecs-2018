@@ -1,5 +1,7 @@
 # WTP CS Problem Set 4
 
+To get started, log into your Edmodo student account, find the post for Problem Set 4, and download the files.
+
 ### 1. Understanding Loops - `loops.py`
 For the following fragments of code, create a new file called `loops.py` and write what the output would be using comments for each of the examples below. **Do this *without* running the code.**
 
@@ -50,7 +52,7 @@ print  res
 Once you are done, you can run the code to check your answers. 
 
 ### 2.  Exponentials - `exponential.py`
-Imagine  that  the `**` operator  for  numbers  has  now  been  removed  from  the  Python  programming  language. Write  a  program  that  prompts  the  user  for  a  base  and  an  exponent  and  uses  a `for` loop  to  calculate `base**exp`.
+Imagine  that  the `**` operator  for  numbers  has  now  been  removed  from  the  Python  programming  language. Write  a  program in  that  prompts  the  user  for  a  base  and  an  exponent  and  uses  a `for` loop  to  calculate `base**exp`.
 
 We  will  assume  the  user  types  in  a  positive  integer.  (You  don’t  need  to  handle  other  cases.)
 
@@ -81,11 +83,4 @@ The `sleep(ns)` command  in  the `time` module  pauses  the  program  for `ns` s
 (d) **(Optional)** Finally,  count  the  number  of  times  the  ball  hits  the  edge  of  the  screen.  Stop  the animation  once  the  ball  has  bounced  10  times.
 
 ### Submitting your PSET
-After you’ve finished your PSET, type into the terminal:
-```
-$ git add -A
-$ git commit -m "Submitting pset 4"
-$ git push
-```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 4"), but the instructors will be able to see it!
-
+After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 4, click "Open Assignment", attach all of the files that you created or edited for Problem Set 4, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
