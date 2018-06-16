@@ -129,14 +129,14 @@ In  other  words,  the `after` method  is  basically  waiting  100  ms  before  
 
 **Note:** You  will  need  to  use  the `after` method  in  your  Tetris  project,  so  make  sure  you  understand how  it  works!
 
-(b) Now  write  a  program  that  will  use  the  updated `Wheel` class.  Create  a `Wheel` object  (you  can  pick the  colors  of  the  tire  and  wheel  to  be  anything  you  want)  and  move  the  wheel  across  the  screen  by 1  unit  in  the  x-direction  100  times.  Remember  you  need  to  draw  the  wheel  before  you  can  move  it.
+(b) The program  now has an  updated `Wheel` class.  The `Wheel` object that has been created (you  can  pick the  colors  of  the  tire  and  wheel  to  be  anything  you  want)  will be used to  move  the  wheel  across  the  screen  by 1  unit  in  the  x-direction  100  times.  Remember  you  need  to  draw  the  wheel  before  you  can  move  it.
 
 (c) How  could  you  make  the `Wheel` move  faster?  Slower?  How  could  you  make  the  wheel  move  farther across  the  screen?  There  are  two  ways  –  come  up  with  both!  (Answer  in  words  below.)
 
 ### 4. Drawing a car - `car.py`
 Now  we’re  going  to  draw  a  car!
 
-(a) Using  the  code  in `car.py`,  we’ll  begin  with  a  rectangle.  To  display  a  rectangle,  you  need  to  specify two  points:  the  upper  left  corner  and  the  bottom  right  corner.
+(a) Using  the  code  in `car.py`,  we’ll  begin  with  a  rectangle.  
 
 Run  your  program,  and  make  sure  that  the  rectangle  appears  on  the  screen.  Try  changing  the  color and  width  of  the  outline  of  the  rectangle.  Look  at  the `setOutline` and `setWidth` methods  in  the documentation.
 
@@ -149,10 +149,10 @@ Below  is  an  example  of  how  we  will  use  the `Car` object.  You  need  to
 win  =  GraphWin("Car",  700,  300)
 
 #  create  a  car  object
-#  1st  wheel  centered  at  (50,  50)  with  radius  15
-#  2nd  wheel  centered  at  (100,  50)  with  radius  15
+#  1st  wheel  centered  at  (50,  50)  with tire radius  15
+#  2nd  wheel  centered  at  (100,  50)  with tire radius  15
 #  rectangle  with  a  height  of  40
-car1  =  Car(Point(50,  50),  15,  Point(100,  50),  15,  40)
+car1  =  Car(wheel1,  wheel2,  rect)
 car1.draw(win)
 
 #  color  the  wheels  grey  with  black  tires,  and  the  body  pink
@@ -166,7 +166,7 @@ win.mainloop()
 
 Note  that  when  we  define  the `Car`,  the  size  of  each  wheel  is  given  only  by  the  radius  of  the  tire (outer)  circle.  You  can  compute  the  radius  of  the  wheel  (inner)  circle  as  a  percentage  of  the  radius of  the  tire  circle,  e.g.  60%.
 
-(c) Test  your  code  by  thoroughly  running  it  through  the  terminal.  When  you  are  confident  that  your `Car` class  works,  you’re  done!
+(c) Test  your  code.  When  you  are  confident  that  your `Car` class  works,  you’re  done!
 
 ### Submitting your PSET
 After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 6, click "Open Assignment", attach all of the files that you created or edited for Problem Set 6, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
