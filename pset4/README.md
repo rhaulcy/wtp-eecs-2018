@@ -52,7 +52,7 @@ print  res
 Once you are done, you can run the code to check your answers. 
 
 ### 2.  Exponentials - `exponential.py`
-Imagine  that  the `**` operator  for  numbers  has  now  been  removed  from  the  Python  programming  language. Write  a  program in  that  prompts  the  user  for  a  base  and  an  exponent  and  uses  a `for` loop  to  calculate `base**exp`.
+Imagine  that  the `**` operator  for  numbers  has  now  been  removed  from  the  Python  programming  language. Open `exponential.py` and write  a  program that  prompts  the  user  for  a  base  and  an  exponent  and  uses  a `for` loop  to  calculate `base**exp`.
 
 We  will  assume  the  user  types  in  a  positive  integer.  (You  don’t  need  to  handle  other  cases.)
 
@@ -74,7 +74,7 @@ Loops  allow  us  to  make  animations.  By  drawing  the  same  object  over  a
 
 The `sleep(ns)` command  in  the `time` module  pauses  the  program  for `ns` seconds  before  continuing execution.  Placing  a `sleep` command  before  moving  the  circle  slows  down  the  execution  so  that  you  can actually  see  the  circle  move.
 
-(a) Let’s  make  the  circle  slide  across  the  screen.  Add  a  loop  around  the`sleep` and `move` commands. Change  the  arguments  so  that  the  circle  moves  1  pixel  to  the  right  every  10  milliseconds.  (To  avoid using  infinite  loops,  you  can  specify  a  finite  number  of  time  steps  for  the  circle  to  move,  e.g.,  30.)
+(a) Open `animate.py`. Let’s  make  the  circle  slide  across  the  screen.  Add  a  loop  around  the `sleep` and `move` commands. Change  the  arguments  so  that  the  circle  moves  1  pixel  to  the  right  every  10  milliseconds.  (To  avoid using  infinite  loops,  you  can  specify  a  finite  number  of  time  steps  for  the  circle  to  move,  e.g.,  30.)
 
 (b) Cool!  If  we  let  the  animation  keep  going,  then  the  circle  will  move  off  the  right  edge  of  the  screen. Add  a  variable `x` to  keep  track  of  the  circle’s  position  and  a  variable `dx` for  its  velocity.  The  circle initially  starts  at  (100,  150),  so  by  updating `x` each  time  it  moves,  we  can  track  where  the  circle  is going.  When  the  circle  reaches  the  edge  of  the  screen,  make  it  change  direction.  Do  this  for  both directions  so  that  the  circle  bounces  back  and  forth  inside  the  screen.
 
