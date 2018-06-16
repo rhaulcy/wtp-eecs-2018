@@ -97,7 +97,7 @@ Specifically,  MIT  card  counting  approach  assigns  card  counting  values  a
 We  will  finish  the  card  counting  program  tomorrow  on  ps4,  and  you  will  re-use  the  code  you  wrote  today!
  
 ### 6. Guess Your Number (optional) - `guessnum2.py` 
-Write  a  Guess  Your  Number!  game.  In  this  game,  the  program  will  try  to  guess  your  number!  Here  is  an example  of  how  the  program  will  work:
+Write  a  Guess  Your  Number!  game in `guessnum2.py`.  In  this  game,  the  program  will  try  to  guess  your  number!  Here  is  an example  of  how  the  program  will  work:
 
 ```
 I'm  ready  to  guess!
