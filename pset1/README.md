@@ -1,6 +1,6 @@
 # WTP CS Problem Set 1
 
-To get started, go to www.edmodo.com. Click "Join a group" and use the class code `rb6z2a`. You should see "R'mani Haulcy's Class". Create a new student account, look at the latest posts, find the post for Problem Set 1, and download the files.
+To get started, go to www.edmodo.com. Click "Join a group" and use the class code `rb6z2a`. You should see "WTP CS 2018". Create a new student account, find the post for Problem Set 1, and download the files.
  
 ### 1. Writing your first program - `hello.py`
 
