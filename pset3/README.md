@@ -1,9 +1,6 @@
 # WTP CS Problem Set 3
 
-To get started, click the green "Clone or download" button and copy the link given. Then, in a terminal, navigate to the location you want to put your new pset folder and type:
-```
-$ git clone {your-link-here}
-```
+To get started, log into your Edmodo student account, find the post for Problem Set 3, and download the files.
  
 ### 1. Write a Mad Lib - `madlib.py`
 
@@ -20,7 +17,7 @@ In `madlib.py` we  are  going  to  write  a  program  that  lets  the  user  mak
 (d) Finally,  print  out  the  story  for  the  user!
 
 ### 2.  Mouse Input - `mousepoint.py`
-In  this  exercise,  we’ll  experiment  with  a  different  type  of  user  input:  the  mouse  pointer.  You  can  find all  the  documentation  for  the  graphics  module  on  the  website http://tinyurl.com/graphics-py (or http://mcsp.wartburg.edu/zelle/python/graphics/graphics/graphics.html). 
+In  this  exercise,  we’ll  experiment  with  a  different  type  of  user  input:  the  mouse  pointer.  You  can  find all  the  documentation  for  the  graphics  module  in the graphics reference sheet on Edmodo. 
 
 The  code  in  `mousepoint.py`  shows  you  how  to  retrieve  the  coordinates  of  the  mouse  pointer  when  the  user  clicks. Run  the  program  and  make  sure  you  can  get  the  mouse  coordinates.  You  should  only  draw  the  window once,  but  you  should  get  new  mouse  coordinates  every  time  the  user  clicks  the  window. 
 
@@ -44,16 +41,18 @@ Correct!  You  win!
 
 For  this  game,  we  will  need  to  generate  a  random  number  for  the  user  to  guess.  For  this,  we  need a  new  module,  the `random` module.  At  the  top  of  your  code,  add  the  line `import  random`.  We’ll use  this  module  to  generate  a  random  integer  using  the  function `randint`,  which  works  as  follows: `random.randint(lo, hi)`,  where `lo` and `hi` are  integers  that  tell  the  code  the  range  in  which  to  generate a  random  integer  (this  range  is  inclusive).  Let’s  use  0  to  30  for  now.
 
-Write  a  function `guess_compare` that  asks  the  user  for  a  guess,  then  compares  that  guess  with  the  correct number  and  prints  out  “Too  low!”,  “Too  high!”,  or  “Correct!” 
+Open `guessnum.py` and write  a  function `guess_compare` that  asks  the  user  for  a  guess,  then  compares  that  guess  with  the  correct number  and  prints  out  “Too  low!”,  “Too  high!”,  or  “Correct!” 
+
+Note: Remember that `raw_input` takes in the user's input as a string. You can use casting to convert that input into a number or you can use `input` instead of `raw_input`.
 
 Give  the  user  five  guesses.  If  the  user  has  not  yet  guessed  the  number,  print  out  the  correct  answer. *(Hint:  Your  function `guess_compare` will  need  to  return  whether  the  guess  was  correct.)*  Test  your  game.
 
-**Optional:** If  the  user  gets `n` guesses,  what  is  the  largest  range  of  numbers  the  program  can  choose  from and  still  guarantee  that  the  user  can  win?  What  is  the  strategy  that  the  user  should  use?  You’ll  talk more  about  this  in  Discrete  Math  next  week!
+**Optional:** If  the  user  gets `n` guesses,  what  is  the  largest  range  of  numbers  the  program  can  choose  from and  still  guarantee  that  the  user  can  win?  What  is  the  strategy  that  the  user  should  use?
 
 ### 4. Blackjack - `blackjack.py`
-Blackjack  is  a  popular  game  (feel  free  to  read  up  more  on  the  game  on  Wikipedia:https://en.wikipedia.org/wiki/Blackjack).  The  goal  of  the  game  is  to  get  to  a  score  of  21  without  going  over. Below  is  a  fragment  of  code.  Given  the  inputs,  what  does  it  output?
+Blackjack  is  a  popular  game  (feel  free  to  read  up  more  on  the  game  on  Wikipedia:https://en.wikipedia.org/wiki/Blackjack).  The  goal  of  the  game  is  to  get  to  a  score  of  21  without  going  over. Below  is  a  fragment  of  code.  Given  the  inputs in the table below,  what  does  it  output?
 
-Create a python file called `blackjack.py` and use comments to write your answer. Do  this *without* running  the  code.  (It  is  an  important  skill  to  be  able  to  understand  what  a  piece  of  code does  without  running  it.)
+Open `blackjack.py` and use comments to fill in the table. Do  this *without* running  the  code.  (It  is  an  important  skill  to  be  able  to  understand  what  a  piece  of  code does  without  running  it.)
 
 ```python
 total  =  card1  +  card2
@@ -71,8 +70,6 @@ elif  total  >  9  or  (total  ==  9  and  dealer_card  <=  6):
 else:
     print "hit"
 ```
-
-Fill in the following table with the appropriate outputs (the answers can be entered into `blackjack.py` using comments):
 
 | card1 | card2 | dealer_card | output |
 | ----- | ----- | ----------- | ------ |
@@ -115,10 +112,4 @@ Yay!  So  your  number  was  17.  Good  game.
 Think  about  what  strategy  the  program  should  use  to  guess  your  number.  What  does  it  need  to  remember? These  are  your  variables.  Give  the  computer  5  guesses  before  it  gives  up  and  asks  for  the  answer.
 
 ### Submitting your PSET
-After you’ve finished your PSET, type into the terminal:
-```
-$ git add -A
-$ git commit -m "Submitting pset 3"
-$ git push
-```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 3"), but the instructors will be able to see it!
+After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 3, click "Open Assignment", attach all of the files that you created or edited for Problem Set 3, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
