@@ -110,7 +110,7 @@ Once you are done, you can run the code to verify that your answer is correct.
 ### 4. Not equal - `not_equal.py`
 Imagine  that  the `!=` operator  for  numbers  has  suddenly  been  removed  from  the  Python  programming language.  We  need  to  find  a  way  to  replace  it  with  the  remaining  operators  in  the  language.  Remember that  before  it  went  missing,  the `!=` operator  took  two  numbers,  and  returned `True` if  they  were  not  equal to  one  another,  and `False` otherwise.
 
-In `not_equal.py`,  write  a  function `not_equal`.  We  still  have  the `not` operator  (which  can  be  applied  to booleans)  and  the `==` operator,  which  can  be  applied  to  numbers. 
+Create a file called `not_equal.py` and write  a  function `not_equal`.  We  still  have  the `not` operator  (which  can  be  applied  to booleans)  and  the `==` operator,  which  can  be  applied  to  numbers. 
 
 Now  let’s  try  and  test  our  new  function.  Create  4  variables `a`, `b`, `c`,  and `d`,  such  that `a` and `b` have the same  value,  and `c` and `d` are  different  from  one  another. 
 
