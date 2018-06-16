@@ -1,5 +1,7 @@
 # WTP CS Problem Set 6
 
+To get started, log into your Edmodo student account, find the post for Problem Set 6, and download the files.
+
 ### 1. Creating an object - `create.py`
 In `create.py`,  create  a  new  class  called `NewClass`.
 
@@ -11,9 +13,9 @@ Add  a  method  to `NewClass` called `print_params()` that `prints` the  list  (
 
 Add  a  method  to `NewClass` called `find_average()` that  finds  and `returns` the  average  of  the  list.  The only  parameter  for  this  method  is `self`.  Test  it  before  moving  on.
 
-Add  a  method  to `NewClass` called `find_min()` that  finds  and  returns  the  minimum  of  the  parameters. The  only  parameter  for  this  method  is `self`.  Test  it  before  moving  on.
+Add  a  method  to `NewClass` called `find_min()` that  finds  and  returns  the  minimum  of  the  parameters. The  only  parameter  for  this  method  is `self`. Don't use the built-in function min(). Write your own function. Test  it  before  moving  on.
 
-Add  a  method  to `NewClass` called `find_max()` that  finds  and  returns  the  maximum  of  the  parameters. The  only  parameter  for  this  method  is `self`.  Test  it.
+Add  a  method  to `NewClass` called `find_max()` that  finds  and  returns  the  maximum  of  the  parameters. The  only  parameter  for  this  method  is `self`. Don't use the built-in function max(). Write your own function. Test  it.
 
 When  you’re  done,  you  should  have  a  new  class, `NewClass`. **UNDER** your  class  description,  you  should have  several  lines.  The  first  should  create  your `new_object`.  The  others  should  call  the  various  methods (**print_params()**, **find_average()**, **find_min()**, **find_max()**)  and  print  them  out. 
 
@@ -52,60 +54,58 @@ Open  up `wheel.py` in  `IDLE`.  We  explain  the  code  below:
 ```python
 class  Wheel(object):
   def  __init__(self,  center,  wheel_radius,  tire_radius):
-  *Our  wheel  is  constructed  with  a  center  point,  and  a  radius  for  the  wheel  and  the  tire.*
+  #Our  wheel  is  constructed  with  a  center  point,  and  a  radius  for  the  wheel  and  the  tire.
   
     self.tire_circle =  Circle(center,  tire_radius)
-    *The  tire circle  attribute  is  another  object:  a  circle.*
+    #The  tire circle  attribute  is  another  object:  a  circle.
     
     self.wheel_circle =  Circle(center,  wheel_radius)
     
   def  draw(self,  win):
-  *We  want  to  be  able  to  draw  our  Wheel,  so  we  have  to  make  a  method  for  that.*
+  #We  want  to  be  able  to  draw  our  Wheel,  so  we  have  to  make  a  method  for  that.
   
     self.tire_circle.draw(win)
-    *Here,  we  are  using  the  draw  method  built  into  Python. self.tirecircle  is  a  Circle  object,  sowe  are  calling  the  draw  method  on  that  object.*
+    #Here,  we  are  using  the  draw  method  built  into  Python. self.tirecircle  is  a  Circle  object,  sowe  are  calling  the  draw  method  on  that  object.
     
     self.wheel_circle.draw(win)
     
   def  move(self,  dx,  dy):
-  *We  also  want  to  be  able  to  move  the  wheel  (it  is  a  wheel  after  all!)*
+  #We  also  want  to  be  able  to  move  the  wheel  (it  is  a  wheel  after  all!)
   
     self.tire_circle.move(dx, dy)
-    *Python  has  a  built-in  move  method  too.  We  are  calling  it  on  the self.tire_circle  Circle  object here.  move  takes  two  parameters  --  the  change  in  x  and  the  change  in  y  that  it  should  move.
+    #Python  has  a  built-in  move  method  too.  We  are  calling  it  on  the self.tire_circle  Circle  object here.  move  takes  two  parameters  --  the  change  in  x  and  the  change  in  y  that  it  should  move.
     
     self.wheel_circle.move(dx, dy)
     
   def  set_color(self,  wheel_color,  tire_color):
-  *We  also  want  to  be  able  to  set  its  color.  We  have  to  remake  all  of  these  methods  because  we  are making  a  new  class,  but  it  is  okay  to  just  tell  it  to  do  these  things  on  objects  we  already  have.*
+  #We  also  want  to  be  able  to  set  its  color.  We  have  to  remake  all  of  these  methods  because  we  are making  a  new  class,  but  it  is  okay  to  just  tell  it  to  do  these  things  on  objects  we  already  have.
   
     self.tire_circle.setFill(tire_color)
     self.wheel_circle.setFill(wheel_color)
     
   def  undraw(self):
-  *This  method  will  undraw  itself  --  get  rid  of  the  image.*
+  #This  method  will  undraw  itself  --  get  rid  of  the  image.
   
     self.tire_circle.undraw()
     self.wheel_circle.undraw()
     
   def  get_size(self):
     return self.tire_circle.getRadius()
-    *Circle  has  a  built-in  method  that  gets  the  radius  --  here  we  are  just  calling  it  on  the  tire_circle object,  which  is  an  instance  of  Circle.
+    #Circle  has  a  built-in  method  that  gets  the  radius  --  here  we  are  just  calling  it  on  the  tire_circle object,  which  is  an  instance  of  Circle.
     
   def  get_center(self):
     return self.tire_circle.getCenter()
-    *getcenter  is  built  into  Circle  too.
+    #getcenter  is  built  into  Circle  too.
     
 win  =  GraphWin('Wheel',  320,  240)
 w  =  Wheel(Point(100,  100),  50,  70)
-*This  creates  a  new  object  w  that  is  a  Wheel.*
+#This  creates  a  new  object  w  that  is  a  Wheel.
 
 w.draw(win)
 w.set_color('gray', 'black')
 
 win.mainloop()
 ```
-
-Run  this  program  using  the `Run  >  Run  Module` dropdown  menu  or  using  the  terminal  with `python wheel.py &`.
 
 (a) Next,  we  are  going  to  animate  the  wheel!  Let’s  add  an `animate` method  that  will  move  the  wheel across  the  screen.  Remember  how  last  week  we  used  a  loop  and  a `sleep` function  to  make  an animation?  Well,  the `graphics` module  makes  animations  even  easier  by  giving  us  the `GraphWin` method `after`.  (The `sleep` function  doesn’t  work  well  with  graphical  user  interfaces,  or  GUIs.) 
 
@@ -151,7 +151,8 @@ win  =  GraphWin("Car",  700,  300)
 #  create  a  car  object
 #  1st  wheel  centered  at  (50,  50)  with  radius  15
 #  2nd  wheel  centered  at  (100,  50)  with  radius  15
-#  rectangle  with  a  height  of  40car1  =  Car(Point(50,  50),  15,  Point(100,  50),  15,  40)
+#  rectangle  with  a  height  of  40
+car1  =  Car(Point(50,  50),  15,  Point(100,  50),  15,  40)
 car1.draw(win)
 
 #  color  the  wheels  grey  with  black  tires,  and  the  body  pink
@@ -168,10 +169,4 @@ Note  that  when  we  define  the `Car`,  the  size  of  each  wheel  is  given 
 (c) Test  your  code  by  thoroughly  running  it  through  the  terminal.  When  you  are  confident  that  your `Car` class  works,  you’re  done!
 
 ### Submitting your PSET
-After you’ve finished your PSET, type into the terminal:
-```
-$ git add -A
-$ git commit -m "Submitting pset 6"
-$ git push
-```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 6"), but the instructors will be able to see it!
+After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 6, click "Open Assignment", attach all of the files that you created or edited for Problem Set 6, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
