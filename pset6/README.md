@@ -38,7 +38,7 @@ Next  you  will  see  that  there  is  a `Person` class,  which  has  three  ins
 
 For  example,  if  the  person  has  a  generosity  of  0.5,  the  person’s  dog  should  eat  amount  0.5  pound  of food  when `feedDog()` is  called.  That  means  if  the  dog  previously  weighed  13.5  pounds,  he  should weigh  14.0  pounds  after  the `feedDog()` method  is  called.
 
-(b)Create  a `Person` object  (`my_person`).  The `Person` constructor  requires  a  string  for  the  name,  a `Dog` object,  and  the  generosity  which  should  be  a  float  between  0  and  1.  For  the `Dog` object,  you  will  need to  make  a `Dog` object  and  immediately  pass  it  into  the `Person` constructor.  (It  will  look  something like `Person(..,  Dog(...),  ...)`.
+(b) Create  a `Person` object  (`my_person`).  The `Person` constructor  requires  a  string  for  the  name,  a `Dog` object,  and  the  generosity  which  should  be  a  float  between  0  and  1.  For  the `Dog` object,  you  will  need to  make  a `Dog` object  and  immediately  pass  it  into  the `Person` constructor.  (It  will  look  something like `Person(..,  Dog(...),  ...)`.
 
 (c) Check  the `Dog`’s  weight.  Then  call  the `feedDog()` method  on `my_person`,  and  check  the `Dog`’s  weight again.  Make  sure  the  weight  changed  as  it  was  supposed  to. **Hint:** How  can  you  get  the `Dog` object? Is  it  available  through  the `Person` object? 
 
