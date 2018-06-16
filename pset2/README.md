@@ -1,9 +1,6 @@
 # WTP CS Problem Set 2
 
-To get started, click the green "Clone or download" button and copy the link given. Then, in a terminal, navigate to the location you want to put your new pset folder and type:
-```
-$ git clone {your-link-here}
-```
+To get started, log into your Edmodo student account, find the post for Problem Set 2, and download the files.
  
 ### 1. print vs return - `print_vs_return.py`
 
@@ -169,10 +166,4 @@ After  you’ve  played  around,  use  the  functions  you  wrote  in  exercise 
 Create  a  function  called `parfait_stamp` that  takes  in  an `x` and a `y` value  and  draws  a  ladyfinger  parfait centered  around  the  point  (x,  y)  on  the  screen.  (Don’t  worry:  we’re  not  grading  for  realism.)  Decorate your  recipe!
 
 ### Submitting your PSET
-After you’ve finished your PSET, type into the terminal:
-```
-$ git add -A
-$ git commit -m "Submitting pset 2"
-$ git push
-```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 2"), but the instructors will be able to see it!
+After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 2, click "Open Assignment", attach all of the files that you created or edited for Problem Set 2, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
