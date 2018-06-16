@@ -3,8 +3,6 @@
 # Name:
 # Collaborators:
 
-# This shows a ball bouncing back and forth across the screen.
-
 from graphics import *
 from time import sleep   # for pausing between frames
 
