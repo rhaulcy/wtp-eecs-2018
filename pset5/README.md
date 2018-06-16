@@ -1,11 +1,13 @@
 # WTP CS Problem Set 5
 
+To get started, log into your Edmodo student account, find the post for Problem Set 5, and download the files.
+
 ### 1. Translation - `translator.py`
 Sometimes  people  have  to  talk  to  automated  systems  over  the  phone.  They  might  ask  you  to  read  out some  sort  of  number  for  identification  –  for  example,  your  confirmation  number,  bank  account  number, or  social  security  number.  If  the  number  is  1234,  you  might  read  it  out  as  “one-two-three-four.”
 
 Now  imagine  you  have  to  speak  to  a  Spanish  company,  but  you  don’t  know  Spanish!  We  are  going  to write  a  really  simple  translator  that  will  help  you  translate  English  numbers  to  Spanish  numbers.
 
-Your  code  should  ask  for  one  or  more  numbers,  spelled  out  in  English.  Then,  it  should  print  out  the Spanish  numbers.  Please  use  a  dictionary  for  this!  Your  program  should  work  as  follows:
+Open `translator.py`. Your  code  should  ask  for  one  or  more  numbers,  spelled  out  in  English.  Then,  it  should  print  out  the Spanish  numbers.  Please  use  a  dictionary  for  this!  Your  program  should  work  as  follows:
 
 ```python
 Enter  one  (or  more)  numbers  spelled  out  in  English:  two  three
@@ -18,11 +20,12 @@ Note:  You  can  assume  your  user  correctly  inputs  one  (or  more)  English
 (a) Consider  the  problem  of  converting  an  integer  number  into  a  binary  number.  There  are  many  ways  to do  this  binary  conversion,  but  in  this  problem  we  are  going  to  use  something  similar  to  the  following procedure:
 
 While  the  number  is  greater  than  zero, 
+
   i. Find  the  remainder  after  dividing  the  number  by  2.  (The  remainder  would  be  0  or  1.)
   ii. Print  the  remainder.
   iii. Divide  the  number  by  2,  using  floor  division.  Set  the  number  to  this  new  result,  and  repeat  (if the  number  is  still  greater  than  zero).
   
-Write  code  that  takes  a  decimal  number  and  prints  out  1’s  and  0’s  based  on  the  procedure  above. The  program  should  work  as  follows:
+Open `binary.py` and write  code  that  takes  a  decimal  number  and  prints  out  1’s  and  0’s  based  on  the  procedure  above. The  program  should  work  as  follows:
 
 ```python
 Enter  a  number:  23
@@ -139,10 +142,5 @@ As  a  programmer,  you  should  always  consider  “edge  conditions”  like 
 (i) Fill  in  the  rest  of  the  section  titled ACTUAL  GAMEPLAY.  This  will  include  some  sort  of  loop  around one  player’s  turn,  so  that  players  can  play  until  one  of  them  wins  or  the  game  ends  in  a  tie.  Printout  the  result  of  the  game.
 
 ### Submitting your PSET
-After you’ve finished your PSET, type into the terminal:
-```
-$ git add -A
-$ git commit -m "Submitting pset 5"
-$ git push
-```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 5"), but the instructors will be able to see it!
+After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 5, click "Open Assignment", attach all of the files that you created or edited for Problem Set 5, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
+
