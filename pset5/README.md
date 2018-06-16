@@ -22,7 +22,9 @@ Note:  You  can  assume  your  user  correctly  inputs  one  (or  more)  English
 While  the  number  is  greater  than  zero, 
 
   i. Find  the  remainder  after  dividing  the  number  by  2.  (The  remainder  would  be  0  or  1.)
+  
   ii. Print  the  remainder.
+  
   iii. Divide  the  number  by  2,  using  floor  division.  Set  the  number  to  this  new  result,  and  repeat  (if the  number  is  still  greater  than  zero).
   
 Open `binary.py` and write  code  that  takes  a  decimal  number  and  prints  out  1’s  and  0’s  based  on  the  procedure  above. The  program  should  work  as  follows:
