@@ -27,10 +27,6 @@ class Wheel(object):
                 return self.tire_circle.getRadius()
         def get_center(self):
                 return self.tire_circle.getCenter()
-        def animate(self, win, dx, dy, n):
-                for counter in range(n):
-                        time.sleep(.1)
-                        self.move(dx, dy)
 
 win = GraphWin('Wheel', 320, 240)
 w = Wheel(Point(100, 100), 50, 70)
