@@ -118,8 +118,20 @@ Now  write  a  call  to  your `not_equal` function,  passing it `a` and `b`,  an
 
 Now  test  that  your  function  works  when  the  parameters  are  not  equal  (by  passing  it `c` and `d`).  Assign  the return  value  to  a  variable `not_equal_test2`,  and  print  out  the  values.
 
+Compare your output to the output below:
+```python
+>>> 5
+>>> 5
+>>> True
+>>> 1
+>>> 3
+>>> False
+```
+
+Your output will be slightly different if you choose different values for `a`, `b`, `c`, and `d`.
+
 ### 5. Simple graphics - `simple_graphics.py`
-Let’s  make  a  simple  graphics  program.  Open `simple_graphics.py` in  IDLE,  but  don’t  run  it  yet!  You  can find  all  the  documentation  for  the  graphics  module  on  the  website http://tinyurl.com/graphics-py (or http://mcsp.wartburg.edu/zelle/python/graphics/graphics/graphics.html).  We  explain  the code in `simple_graphics.py` below.
+Let’s  make  a  simple  graphics  program.  Open `simple_graphics.py` in  IDLE,  but  don’t  run  it  yet!  You  can find  all  the  documentation  for  the  graphics  module  in the graphics reference sheet on Edmodo.  We  explain  the code in `simple_graphics.py` below.
 
 ***
 
