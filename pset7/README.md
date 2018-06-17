@@ -1,5 +1,7 @@
 # WTP CS Problem Set 7
 
+To get started, log into your Edmodo student account, find the post for Problem Set 2, and download the files.
+
 ### 1. Understanding inheritance
 Consider the following code:
 
@@ -61,7 +63,7 @@ As  you  can  see,  each  of  the  tetrominoes  is  made  up  of  4  squares,  w
 The  tetris  board  is  10  squares  wide  by  20  squares  high.  Each  block  (of  a  tetris  shape)  occupies  a  single square  at  a  time.  In  the  file `tetrominoes.py`,  create  a `Block` class  that  inherits  from  the `Rectangle` class from  the `graphics` module  and  save  it. 
 **Hint:** Look  up  the  documentation  for  the `Rectangle` class  from  the `graphics` module  now!  You  can  use the  reference  packet  we  handed  out,  or  the  online  documentation  at http://tinyurl.com/graphics-py. Note  the  constructor  and  its  other  methods  –  you  will  find  some  of  these  useful.
 
-Now,  make  the  constructor  for  the `Block` class.  It  should  have `x` and `y` attributes  that  correspond  to  the position  of  the  block  on  the  tetris  board.  The  “block  position”  (0,  0)  is  the  top  left  corner  of  the  board and  (9,  19)  is  the  bottom  right  corner.  Make  your  blocks  have  a  width  of  30  pixels. 
+Now,  make  the  constructor  for  the `Block` class.  The `block` class should take in a `Point(...)` parameter corresponding to the position of the block and a `color` parameter corresponding to the color of the block. It  should  have `x` and `y` attributes  that  correspond  to  the position  of  the  block  on  the  tetris  board (these values can be extracted from the `Point(...)` parameter).  The  “block  position”  (0,  0)  is  the  top  left  corner  of  the  board and  (9,  19)  is  the  bottom  right  corner.  Make  your  blocks  have  a  width  of  30  pixels. 
 **Hint:** the  “block  position”  coordinates  are  different  from  the  window’s  pixel  coordinates! When  your `Block` constructor  is  done,  you  should  be  able  to  use  it  in  a  5  block  x  5  block  board  with  the code  below.  You  will  find  this  code  in  your  template  file  to  ensure  that  your `Block` class  works  correctly.
 
 ```python
@@ -108,7 +110,7 @@ class  I_shape(Shape):
     self.center_block = self.blocks[1]
 ```
 As  you  can  see  in  the  example,  the  `I_shape` constructor  takes  one  parameter, `center`,  which  is  a `Point` that  holds  the  position  of  the  central  block  in  the  shape  (i.e.,  the  center  of  rotation).  It  also  creates  and saves  a `center_block` attribute  of  the `I_shape` class,  which  uses  the `blocks` attribute  that  you  will  create in  the `Shape` class.  We  have  defined  the  central  block  for  each  tetromino  as  the  blocks  colored  in  black below:
-![alt text](screenshots/blocks.png "")
+![Tetris blocks](./blocks.png "")
 *Note:  You  do  not  have  to  follow  the  color  scheme  of  the  tetrominoes  shown  in  the  picture  –  all  your  blocks can  be  blue  (or  you  can  color  them  however  you  want).*
 
 Once  you  have  written  your `Shape` class,  verify  that  it  can  display  the `I_shape` correctly,  using  the  code below:
@@ -146,10 +148,4 @@ win.mainloop()
 Congratulations!  You  have  finished  the  first  step  towards  your  tetris  game:  creating  all  the  tetrominoes!
 
 ### Submitting your PSET
-After you’ve finished your PSET, type into the terminal:
-```
-$ git add -A
-$ git commit -m "Submitting pset 7"
-$ git push
-```
-You can do this as many times as you'd like to. You can also write whatever you'd like in the quotations (instead of just "Submitting pset 7"), but the instructors will be able to see it!
+After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 1, click "Open Assignment", attach all of the files that you created or edited for Problem Set 1, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
