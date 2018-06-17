@@ -11,14 +11,14 @@ class Block(Rectangle):
 # class Shape(object):
     # do something here
 
-# class I_shape(Shape):
-    # def __init__(self, center):
-        # coords = [Point(center.x - 2, center.y),
-                  # Point(center.x - 1, center.y),
-                  # Point(center.x    , center.y),
-                  # Point(center.x + 1, center.y)]
-        # Shape.__init__(self, coords, "blue")
-        # self.center_block = self.blocks[1]
+# class  I_shape(Shape):
+#   def  __init__(self,  center):
+#     coords  =  [Point(center.x  -  1,  center.y),
+#                 Point(center.x  ,  center.y),
+#                 Point(center.x  +  1,  center.y),
+#                 Point(center.x  +  2,  center.y)]
+#     Shape.__init__(self,  coords,  "blue")
+#     self.center_block = self.blocks[1]
 
 # class J_shape(Shape):
     # do something
