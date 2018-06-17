@@ -50,7 +50,7 @@ for shape in shape_letter_list:
 ```
 
 The  output  should  look  like this:
-![animation gif](./tetris_3.gif)
+![animation gif](./tetris_3.gif){:height="50%" width="50%"}
 
 ### Submitting your PSET
 After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 8.1, click "Open Assignment", attach all of the files that you created or edited for Problem Set 8.1, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
