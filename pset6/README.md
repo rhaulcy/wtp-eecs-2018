@@ -131,7 +131,7 @@ In  other  words,  the `after` method  is  basically  waiting  100  ms  before  
 
 (b) The program  now has an  updated `Wheel` class.  The `Wheel` object that has been created (you  can  pick the  colors  of  the  tire  and  wheel  to  be  anything  you  want)  will be used to  move  the  wheel  across  the  screen  by 1  unit  in  the  x-direction  100  times.  Remember  you  need  to  draw  the  wheel  before  you  can  move  it.
 
-(c) How  could  you  make  the `Wheel` move  faster?  Slower?  How  could  you  make  the  wheel  move  farther across  the  screen?  There  are  two  ways  –  come  up  with  both!  (Answer  in  words  below.)
+(c) How  could  you  make  the `Wheel` move  faster?  Slower?  How  could  you  make  the  wheel  move  farther across  the  screen?  There  are  two  ways  –  come  up  with  both!  (Answer  by commenting in the file.)
 
 ### 4. Drawing a car - `car.py`
 Now  we’re  going  to  draw  a  car!
