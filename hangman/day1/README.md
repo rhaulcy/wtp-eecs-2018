@@ -22,8 +22,7 @@ Hello <name>!
 ```
  
 ### 2. Helper Function - Display: 
-Write a function that will display the word as a string of underscores and letters. For example, if you type the first
-three lines below into a python console, it should produce the fourth line:
+Fill in the `display` function in `hangman.py` that will display the word as a string of underscores and letters. For example, if you type the first three lines below into a python console, it should produce the fourth line:
 ```python
 >>> word = “butterscotch”
 >>> letters = [‘a’, ‘g’, ‘r’, ‘t’]
