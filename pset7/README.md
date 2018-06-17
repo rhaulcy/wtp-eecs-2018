@@ -1,6 +1,6 @@
 # WTP CS Problem Set 7
 
-To get started, log into your Edmodo student account, find the post for Problem Set 2, and download the files.
+To get started, log into your Edmodo student account, find the post for Problem Set 7, and download the files.
 
 ### 1. Understanding inheritance
 Consider the following code:
@@ -149,4 +149,4 @@ win.mainloop()
 Congratulations!  You  have  finished  the  first  step  towards  your  tetris  game:  creating  all  the  tetrominoes!
 
 ### Submitting your PSET
-After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 1, click "Open Assignment", attach all of the files that you created or edited for Problem Set 1, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
+After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 7, click "Open Assignment", attach all of the files that you created or edited for Problem Set 7, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
