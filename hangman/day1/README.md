@@ -1,6 +1,6 @@
-# WTP CS Problem Set 8 - Hangman: Day 1
+# WTP CS Problem Set 8.1 - Hangman: Day 1
 
-To get started, log into your Edmodo student account, find the post for Problem Set 8, and download the files.
+To get started, log into your Edmodo student account, find the post for Problem Set 8.1, and download the files.
 
 For this pset, you’ll be coding a small hangman game! Today, you’ll code the game and rules without graphics, and tomorrow, you’ll add classic hangman images.
 
@@ -53,4 +53,4 @@ Make the game replayable and keep track of the score for players 1 and 2!
 *Tip: If you start a program and can't figure out how to end it, press control + C to terminate.*
 
 ### Submitting your PSET
-After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 8, click "Open Assignment", attach all of the files that you created or edited for Problem Set 8, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
+After you’ve finished your PSET, log into your Edmodo account, find the post for Problem Set 8.1, click "Open Assignment", attach all of the files that you created or edited for Problem Set 8.1, and then click "Turn in Assignment". You can resubmit the assignment as many times as you'd like. After you turn in your assignment, you're all done!
