@@ -16,8 +16,7 @@ Rules:
 ### 1. Warm up - Input: 
 Open `hangman.py` and write a program that asks for your friend’s name, and prints ` Hello <name>!`
 When you run it in the terminal, it should look something like:
-```shell
-$ python3 hangman.py
+```python
 What is your name? <type in name>
 Hello <name>!
 ```
@@ -25,7 +24,7 @@ Hello <name>!
 ### 2. Helper Function - Display: 
 Write a function that will display the word as a string of underscores and letters. For example, if you type the first
 three lines below into a python console, it should produce the fourth line:
-```shell
+```python
 >>> word = “butterscotch”
 >>> letters = [‘a’, ‘g’, ‘r’, ‘t’]
 >>> display(letters, word)
