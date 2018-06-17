@@ -1,6 +1,6 @@
 # WTP CS Problem Set 8.2 - Hangman: Day 2
 
-You'll need your solution from problem set 8.1. Duplicate your problem set 8.1 solution into your problem set 8.2 folder and call it `hangman.py`.
+To get started, log into your Edmodo student account, find the post for Problem Set 8.2, and download the files. You'll also need your solution from problem set 8.1. Duplicate your problem set 8.1 solution into your problem set 8.2 folder and call it `hangman.py`.
 
 ### 1. Warm Up -  Drawing Hangman - `drawing.py`
 Before we start modifying our hangman game from yesterday, let’s get some practice using `graphics.py`. Be sure to take a look at the overview in `graphics.py` for an example; if you get stuck, try running the example code written in the comments of `drawing.py`.  
