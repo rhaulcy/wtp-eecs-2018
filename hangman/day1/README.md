@@ -14,11 +14,13 @@ Rules:
 - After every new letter guessed, display the word but with underscores replacing every letter that has not been guessed by player 2.
  
 ### 1. Warm up - Input: 
-Open `hangman.py` and write a program that asks for your friend’s name, and prints ` Hello <name>!`
+Open `hangman.py` and write a program that asks for both players' names, and prints ` Hello <name>!`
 When you run it in the terminal, it should look something like:
 ```python
-What is your name? <type in name>
-Hello <name>!
+What is player 1's name? <type in name>
+What is player 2's name? <type in name>
+Hello <player 1>!
+Hello <player 2>!
 ```
  
 ### 2. Helper Function - Display: 
