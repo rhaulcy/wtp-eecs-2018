@@ -37,7 +37,7 @@ Modify the display function you made yesterday to show the current guessed secre
 Modify your program so that the window also displays all of the letters that Player 2 had previously guessed.
  
 ### 8. Enter Guesses (Challenge) - `hangman.py`
-Use the graphics object Entry (section 4 in the reference) to have Player 2 input guesses directly in the game window.
+Modify your program so that Player 2 can guess letters directly in the game window. You can use the graphics object Entry (section 4 in the reference) to have Player 2 input guesses directly in the game window or you can use a different approach.
 *Hint: Use getMouse()*
 		 	 	 		
 ### Submitting your PSET
