@@ -48,7 +48,11 @@ How do you know when to end the game?
 *Hint: How can you get an input from the user multiple times without repeating code? (And when do you 
     stop?)*
     
- 
+### 6. Testing
+After your game is finished, play it a few times and see if you find any bugs that you need to fix. For example, does your game work if Player 1 enters a word that has capital letters in it?
+
+**Please make sure to add comments to your code explaining what you are doing!**
+
 ### 6. Challenge (Optional): 
 Make the game replayable and keep track of the score for players 1 and 2!
 
