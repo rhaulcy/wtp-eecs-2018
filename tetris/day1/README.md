@@ -34,7 +34,7 @@ Finally,  write  a  method  for  `Game`  called  `add_drop_shape(shape_letter)`.
 
 This  should  only  work  if  problems  1 and  2 are  also  working.  We  can't  give  you  code  to  test  how  your  earlier problems  are  doing  because  you  have  so  much  freedom  for  what  the  fuctions  might  look  like.  However,  we recommend  that  you  test  each  piece  of  your  code  and  make  sure  that  it  does  what  you  expect  it  to  do  with  various inputs.
 
-*Hint:  Tetris  usually  pauses  briefly  after  each  drop  of  the  shape.  You  can  use the `GraphWin` method `after` that we used in problem set 6 to  make  your  dropping  shape  pause  as  it  drops.*
+*Hint:  Tetris  usually  pauses  briefly  after  each  drop  of  the  shape.  You  can  import  the  time  module  and  use  the  function `time.sleep(seconds)`  to  make  your  dropping  shape  pause  as  it  drops.*
  
 ### 4. Testing
 Run the following code to test your program:
