@@ -4,7 +4,7 @@ To get started, go to www.edmodo.com. Click "Join a group" and use the class cod
  
 ### 1. Writing your first program - `hello.py`
 
-Write a program that will print “Hello, `your_name`!!!” in a box like this: 
+Write a program that will print “Greetings, `your_name`!!!” in a box like this: 
 
 ```
 ##########################
@@ -89,7 +89,7 @@ look*2 + look[:-1] + now + look[-1]
 Print  a  greeting  saying  **“Hello,  Michelle"** and  **“Goodbye,  Obama"**  using  only  the  variables  provided  in `greetings.py`.  Complete instructions are in the file.
  
 ### 6. Optional Challenge:
-Revisit Question 1, and write a program that prints **“Hello \<name>!!!”** in a box of stars for ANY name.
+Revisit Question 1, and write a program that prints **“Grettings, `name`!!!”** in a box of stars for ANY name.
 
 *Hint: Find the length of a string with  len(a_string)*
 
