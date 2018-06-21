@@ -2,7 +2,7 @@
 
 To get started, log into your Edmodo student account, find the post for problem set 9.4, and download the files. You will also need your `tetrominoes.py` code from yesterday. Copy your `tetrominoes.py` code into the folder for problem set 9.4.
 
-### 1. Ro‑tay‑toe, Ro‑tah‑toe
+### 1. Rotaytoe, Rotahtoe
 When  you  press  the  up  arrow  key,  your  shapes  should  rotate  around  the  "center  coordinate"  block  (defined  in  an earlier  tetris  assignment).  This  should  only  require  a  small  change  to  your  `handle_keypress`  function  and  the  addition of  a  `rotate`  method  inside  the  `Shape` class,  as  long  as  you  use  some  clever  math.  Try  writing  out  initial  block locations  and  after‑rotation  block  locations  for  various  shapes  using  pen  and  paper.  Do  you  see  a  pattern? 
 
 It's  ok  if  it  doesn't  work  exactly  correctly  for  all  edge  cases,  but  if  you've  finished  basic  rotation  and  part  2,  consider handling  the  following  scenarios:
