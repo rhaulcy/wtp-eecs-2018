@@ -5,6 +5,7 @@ To get started, log into your Edmodo student account, find the post for Problem 
 For this pset, you’ll be coding a small hangman game! Today, you’ll code the game and rules without graphics, and tomorrow, you’ll add classic hangman images.
 
 Rules:
+
 - Player 1 will think of a word.
 - Player 2 will guess letters she suspects would be in the word.
 - Game Over Conditions:
