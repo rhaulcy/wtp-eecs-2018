@@ -47,7 +47,7 @@ We can also use Python as a calculator. The basic operations are:
 >
 > \* Multiplication 
 >
->\/ Division 
+> \/ Division 
 >
 >\** Exponentiation 
  
