@@ -4,7 +4,7 @@ To get started, go to www.edmodo.com. Click "Join a group" and use the class cod
  
 ### 1. Writing your first program - `hello.py`
 
-Write a program that will print “Hello, <your_name>!!!” in a box like this: 
+Write a program that will print “Hello, `your_name`!!!” in a box like this: 
 
 ```
 ##########################
