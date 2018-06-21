@@ -62,7 +62,7 @@ Create a file called `calculator.py` and use Python to solve the following probl
 If you run a 5K race in 20 minutes 30 seconds, what is your **average time (minutes) per mile**? What is your **average speed in miles per hour**? *Hint: There are 1.61 kilometers in a mile.* In your program, store useful values in variables, and print your final answers! 
 
 ### 4. String operators - `stringop.py`
-String operators are less intuitive than those on numbers. Given the following variables, what are the values of these expressions? (Try getting the answer on your own and use Sublime only to check your answer. Create a file called `stringop.py` and write your answers in it using comments.)
+String operators are less intuitive than those on numbers. Given the following variables, what are the values of these expressions? (Try getting the answer on your own and use IDLE only to check your answer. Create a file called `stringop.py` and write your answers in it using comments.)
 
 ```
 # Variables
