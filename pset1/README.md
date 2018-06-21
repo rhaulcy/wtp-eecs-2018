@@ -38,6 +38,11 @@ like rock-paper-scissors, but you didn’t know where to start, you could write 
 # If second player beats first player, print a winning screen for her 
 ```
 
+For this part of the problem set, we want to add comments to the hello.py file that we just wrote. 
+Now, *edit the program from the previous exercise and add a comment at the beginning of the file with 
+the filename, your name, anyone you worked with (no one if it’s no one), and a sentence about what it does*. 
+You should do that for all future programs.
+
 ### 3. Doing math - `calculator.py`
 We can also use Python as a calculator. The basic operations are: 
 ``` 
@@ -52,14 +57,9 @@ We can also use Python as a calculator. The basic operations are:
 ** Exponentiation 
 ```
  
-Let’s use Python to solve the following problem: 
+Create a file called `calculator.py` and use Python to solve the following problem: 
  
-If you run a 5K race in 20 minutes 30 seconds, what is your **average time (minutes) per mile**? What is your **average speed in miles per hour**? *Hint: There are 1.61 kilometers in a mile.* In your program, store useful values in variables, and print your final answers!
-
-For this part of the problem set, we want to add comments to the hello.py file that we just wrote. 
-Now, *edit the program from the previous exercise and add a comment at the beginning of the file with 
-the filename, your name, anyone you worked with (no one if it’s no one), and a sentence about what it does*. 
-You should do that for all future programs. 
+If you run a 5K race in 20 minutes 30 seconds, what is your **average time (minutes) per mile**? What is your **average speed in miles per hour**? *Hint: There are 1.61 kilometers in a mile.* In your program, store useful values in variables, and print your final answers! 
 
 ### 4. String operators - `stringop.py`
 String operators are less intuitive than those on numbers. Given the following variables, what are the values of these expressions? (Try getting the answer on your own and use Sublime only to check your answer.)
