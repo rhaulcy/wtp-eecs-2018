@@ -40,16 +40,17 @@ like rock-paper-scissors, but you didn’t know where to start, you could write 
 
 ### 3. Doing math - `calculator.py`
 We can also use Python as a calculator. The basic operations are: 
- 
-> \+ Addition 
->
-> \- Subtraction 
->
-> \* Multiplication 
->
-> \/ Division 
->
->\** Exponentiation 
+``` 
++ Addition 
+
+- Subtraction 
+
+* Multiplication 
+
+/ Division 
+
+** Exponentiation 
+```
  
 Let’s use Python to solve the following problem: 
  
