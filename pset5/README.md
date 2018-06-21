@@ -103,8 +103,7 @@ As  you  can  see,  we  use  a  list  of  9  items  to  represent  the  9  squar
   * If  the  list  element  is  the  string "X",  it  means  the  corresponding  square  has  an  X  in  it.
   * If  the  list  element  is  the  string "O",  it  means  the  corresponding  square  has  an  O  in  it. 
   
-We  would  suggest  mapping  the  n-th  list  element  to  the  (i,  j)th  square  in  the  tic-tac-toe  board  as follows:
-![tic tac toe grid](./tictactoe.PNG)
+We  would  suggest  mapping  the  n-th  list  element  to  the  (i,  j)th  square  in  the  tic-tac-toe  board  the way it's mapped in tictactoe.png.
 
 Think  of  a  formula  function `f` that  uses `i` and `j` to  come  up  with  the  list  index, `n`,  that  corresponds to  the  (i,  j)th  square.  For  example,  your  formula  should  take  in  the  following  (i,  j)  input  and  output the  following  n:
 ```python
