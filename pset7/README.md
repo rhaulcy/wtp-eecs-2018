@@ -53,9 +53,7 @@ Create a file called `inheritance.py` and use comments to answer the following q
 ### 2.  Tetris! It begins! - `tetrominoes.py` 
 Tetris  is  deemed  by  some  the  most  popular  video  game  of  all  times.  It  is  a  puzzle  game  developed  by Alexey  Pajitnov  in  1984  while  he  was  working  at  the  Academy  of  Science  of  the  former  USSR  in  Moscow. There  have  been  hundreds  of  variants  of  the  game  developed  since.
 
-We  are  going  to  create  our  own  version  of  the  basic  Tetris  game  for  the  final  project.  The  goal  of  this exercise  is  to  get  familiar  with  the  game  and  to  create  the  shapes  (also  called  tetrominoes)  used  in  the  game. If  you’ve  never  played  it  before,  try: http://www.freetetris.org/ or http://vadim.oversigma.com/games/gbt.html (the  second  uses  MIT’s  green  building  as  a  screen  for  playing  the  game).  Just  remember you  need  to  stop  playing  at  some  point :-).There  are  seven  tetris  shapes  (tetrominoes),  which  you  can  see  below:
-
-![Tetris shapes](./tetris.png)
+We  are  going  to  create  our  own  version  of  the  basic  Tetris  game  for  the  final  project.  The  goal  of  this exercise  is  to  get  familiar  with  the  game  and  to  create  the  shapes  (also  called  tetrominoes)  used  in  the  game. If  you’ve  never  played  it  before,  try: http://www.freetetris.org/ or http://vadim.oversigma.com/games/gbt.html (the  second  uses  MIT’s  green  building  as  a  screen  for  playing  the  game).  Just  remember you  need  to  stop  playing  at  some  point :-).There  are  seven  tetris  shapes  (tetrominoes),  which  you  can  see  in tetris.png:
 
 As  you  can  see,  each  of  the  tetrominoes  is  made  up  of  4  squares,  which  we  will  call  "blocks".  (Note: remember  that  a  square  is  a  type  of  rectangle!)
 
@@ -110,8 +108,8 @@ class  I_shape(Shape):
     Shape.__init__(self,  coords,  "blue")
     self.center_block = self.blocks[1]
 ```
-As  you  can  see  in  the  example,  the  `I_shape` constructor  takes  one  parameter, `center`,  which  is  a `Point` that  holds  the  position  of  the  central  block  in  the  shape  (i.e.,  the  center  of  rotation).  It  also  creates  and saves  a `center_block` attribute  of  the `I_shape` class,  which  uses  the `blocks` attribute  that  you  will  create in  the `Shape` class.  We  have  defined  the  central  block  for  each  tetromino  as  the  blocks  colored  in  black below:
-![Tetris blocks](./blocks.PNG "")
+As  you  can  see  in  the  example,  the  `I_shape` constructor  takes  one  parameter, `center`,  which  is  a `Point` that  holds  the  position  of  the  central  block  in  the  shape  (i.e.,  the  center  of  rotation).  It  also  creates  and saves  a `center_block` attribute  of  the `I_shape` class,  which  uses  the `blocks` attribute  that  you  will  create in  the `Shape` class.  We  have  defined  the  central  block  for  each  tetromino  as  the  blocks  colored  in  black, which can be seen in blocks.png.
+
 *Note:  You  do  not  have  to  follow  the  color  scheme  of  the  tetrominoes  shown  in  the  picture  –  all  your  blocks can  be  blue  (or  you  can  color  them  however  you  want).*
 
 Once  you  have  written  your `Shape` class,  verify  that  it  can  display  the `I_shape` correctly,  using  the  code below:
