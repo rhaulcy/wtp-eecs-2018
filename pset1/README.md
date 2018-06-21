@@ -89,7 +89,7 @@ look*2 + look[:-1] + now + look[-1]
 Print  a  greeting  saying  **“Hello,  Michelle"** and  **“Goodbye,  Obama"**  using  only  the  variables  provided  in `greetings.py`.  Complete instructions are in the file.
  
 ### 6. Optional Challenge:
-Revisit Question 1, and write a program that prints **“Grettings, `name`!!!”** in a box of stars for ANY name.
+Revisit Question 1, and write a program that prints **“Greetings, `name`!!!”** in a box of stars for ANY name.
 
 *Hint: Find the length of a string with  len(a_string)*
 
