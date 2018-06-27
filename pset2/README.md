@@ -122,10 +122,10 @@ Compare your output to the output below:
 ```python
 >>> 5
 >>> 5
->>> True
+>>> False
 >>> 1
 >>> 3
->>> False
+>>> True
 ```
 
 Your output will be slightly different if you choose different values for `a`, `b`, `c`, and `d`.
