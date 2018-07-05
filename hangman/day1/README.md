@@ -54,7 +54,7 @@ After your game is finished, play it a few times and see if you find any bugs th
 
 **Please make sure to add comments to your code explaining what you are doing!**
 
-### 6. Challenge (Optional): 
+### 7. Challenge (Optional): 
 Make the game replayable and keep track of the score for players 1 and 2!
 
 *Tip: If you start a program and can't figure out how to end it, press control + C to terminate.*
