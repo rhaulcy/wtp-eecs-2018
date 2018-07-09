@@ -9,7 +9,8 @@ We  need  to  keep  track  of  some  things  about  the  game,  such  as:
   * what  shape  is  currently  dropping
   * what  blocks  might  be  in  the  way  of  dropping  futher
   
- We  could  use  global  variables  for  this,  but  it's  better  to  pass  these  variables  in  as  parameters  to  the  classes  that need  to  know  about  them.  We  could  write  a  function  that  makes  the  variables  and  passes  them  to  various  classes, but  it  could  end  up  being  a  lot  of  variables  and  parameters.  Instead,  let's  make  a  `Game`  class!  That  way,  we  can  pass  a single  variable  (an  object  of  the  class  `Game`)  that  knows  about  everything  we  need  to  keep  track  of.
+
+We  could  use  global  variables  for  this,  but  it's  better  to  pass  these  variables  in  as  parameters  to  the  classes  that need  to  know  about  them.  We  could  write  a  function  that  makes  the  variables  and  passes  them  to  various  classes, but  it  could  end  up  being  a  lot  of  variables  and  parameters.  Instead,  let's  make  a  `Game`  class!  That  way,  we  can  pass  a single  variable  (an  object  of  the  class  `Game`)  that  knows  about  everything  we  need  to  keep  track  of.
  
 Write  a  `Game`  class in `tetrominoes.py`.  It  should  keep  track  of:
   
