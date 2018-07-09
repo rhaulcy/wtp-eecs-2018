@@ -41,7 +41,7 @@ This  should  only  work  if  problems  1 and  2 are  also  working.  We  can't 
 Run the following code to test your program:
 ```python
 from graphics import *
-from tetris import *
+from time import *
  
 game = Game(12,20)
 shape_letter_list = ["I","J","L","O","S","T","Z"]
